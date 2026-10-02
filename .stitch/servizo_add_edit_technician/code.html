@@ -1,0 +1,503 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_stack" name="shell-type"><title>Servizo</title><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100..900&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-tertiary-container": "#70fcbf", "tertiary-container": "#00744f", "primary-container": "#0d5cde", "tertiary-fixed": "#6ffbbe", "on-error-container": "#93000a", "secondary-fixed-dim": "#afc7f4", "primary-fixed-dim": "#b2c5ff", "surface-container-high": "#e6e8ea", "on-tertiary": "#ffffff", "on-primary": "#ffffff", "tertiary": "#00593c", "surface": "#f7f9fb", "surface-tint": "#0055d3", "surface-container-highest": "#e0e3e5", "outline": "#737686", "error-container": "#ffdad6", "on-tertiary-fixed": "#002113", "surface-bright": "#f7f9fb", "primary-fixed": "#dae2ff", "outline-variant": "#c3c6d7", "inverse-surface": "#2d3133", "secondary-container": "#b7d0fd", "on-error": "#ffffff", "primary": "#0046b0", "surface-container": "#eceef0", "secondary-fixed": "#d5e3ff", "surface-variant": "#e0e3e5", "on-primary-fixed-variant": "#0040a2", "on-secondary-fixed": "#001b3c", "inverse-on-surface": "#eff1f3", "surface-container-low": "#f2f4f6", "on-secondary-fixed-variant": "#2f476d", "surface-container-lowest": "#ffffff", "secondary": "#475f86", "on-tertiary-fixed-variant": "#005236", "on-background": "#191c1e", "on-secondary": "#ffffff", "on-surface": "#191c1e", "on-secondary-container": "#40597f", "on-primary-container": "#dbe2ff", "on-surface-variant": "#424654", "error": "#ba1a1a", "background": "#f7f9fb", "on-primary-fixed": "#001848", "tertiary-fixed-dim": "#4edea3", "inverse-primary": "#b2c5ff", "surface-dim": "#d8dadc" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-sm": "0.5rem", "space-xl": "2rem", "space-xs": "0.25rem", "margin": "1rem", "space-md": "1rem", "gutter": "1rem", "space-lg": "1.5rem" }, "fontFamily": { "label-md": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"] }, "fontSize": { "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600"}], "body-md": ["14px", {"lineHeight": "20px", "fontWeight": "400"}], "body-sm": ["12px", {"lineHeight": "16px", "fontWeight": "400"}], "headline-md": ["22px", {"lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "700"}], "headline-sm": ["18px", {"lineHeight": "24px", "fontWeight": "700"}], "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "800"}], "body-lg": ["16px", {"lineHeight": "24px", "fontWeight": "500"}], "headline-lg-mobile": ["26px", {"lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "800"}], "label-sm": ["10px", {"lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700"}], "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600"}] } } } };</script></head><body class="bg-surface font-body-md text-on-surface min-h-screen flex flex-col antialiased"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-gutter flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-xs min-w-0"><button class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface hover:bg-surface-container-high transition-colors shrink-0" onclick="history.back()"><span class="material-symbols-outlined text-[24px]">arrow_back</span></button><div class="flex flex-col min-w-0 ml-1"><h1 class="font-headline-sm text-headline-sm text-on-surface truncate">Add Technician</h1><span class="font-label-sm text-label-sm text-on-surface-variant truncate">Servizo Editor</span></div></div><div class="flex items-center gap-space-xs shrink-0"><button class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors"><span class="material-symbols-outlined">more_vert</span></button><img alt="Profile" class="w-8 h-8 rounded-full object-cover ml-1" src="https://lh3.googleusercontent.com/aida/AEtjO1UIsGO6kvVVP1HQV8Vd7QlQH5KVY6_FLLfU1yGILxIC-sK4Y9JU0X4mT6grX9TXjMgok_Bc4k_MVy9deUIRqbtqZqrYkgYvmt3Oq__QSR3wJaboZGoGbHqaoXT9NfqDCrGDtoYb5iM_bE8AI7--B6gzMvC35_FWTbbDZU-5d1_olWx3JPoxCKAmAcFwAd01qRImhKM_ZBdWFJ2hBknhP3MoKEGPd_7pnVeXOtudD5gTkGmGFq_rUCxSh9XHCjmFJQNeFL7RlqW0Evo"></div></div></header><main class="flex-1 w-full bg-surface pt-16 pb-safe"><div class="flex flex-col w-full pb-24 space-y-4">
+<!-- Interactive State Toolbar (Simulation & UX Testing) -->
+<div class="px-gutter pt-3">
+<div class="bg-surface-container-high rounded-xl p-2.5 flex items-center justify-between gap-2 overflow-x-auto shadow-sm">
+<div class="flex items-center gap-1.5 shrink-0">
+<span class="material-symbols-outlined text-primary text-[18px]">tune</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Preview Mode:</span>
+</div>
+<div class="flex items-center gap-1 shrink-0">
+<button class="px-2.5 py-1.5 rounded-lg font-label-sm text-label-sm bg-primary text-on-primary transition-all shadow-sm" id="btnStateClean" onclick="switchState('clean')">Clean</button>
+<button class="px-2.5 py-1.5 rounded-lg font-label-sm text-label-sm bg-surface-container text-on-surface-variant hover:text-on-surface transition-all" id="btnStateEdit" onclick="switchState('edit')">Edit Mode</button>
+<button class="px-2.5 py-1.5 rounded-lg font-label-sm text-label-sm bg-surface-container text-on-surface-variant hover:text-on-surface transition-all" id="btnStateError" onclick="switchState('error')">Errors</button>
+<button class="px-2.5 py-1.5 rounded-lg font-label-sm text-label-sm bg-surface-container text-on-surface-variant hover:text-on-surface transition-all flex items-center gap-1" id="btnStateContactPerm" onclick="showModal('contactPermModal')">
+<span class="material-symbols-outlined text-[14px]">contacts</span> Perms
+        </button>
+</div>
+</div>
+</div>
+<!-- Header Banner Indicator for Edit Mode (Dynamic) -->
+<div class="hidden px-gutter" id="editModeBanner">
+<div class="bg-secondary-container text-on-secondary-container px-3.5 py-2 rounded-xl flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">badge</span>
+<span class="font-label-md text-label-md">Editing Tech ID: <span class="font-bold">#SRV-8821</span></span>
+</div>
+<span class="font-label-sm text-label-sm bg-surface-container-lowest text-on-surface px-2 py-0.5 rounded-full">Last active 12m ago</span>
+</div>
+</div>
+<!-- Section 1: Profile Photo & Dispatch Status Card -->
+<section class="px-gutter">
+<div class="bg-surface-container-lowest rounded-xl p-4 shadow-[0_1px_3px_0_rgba(8,38,74,0.04)] space-y-4">
+<div class="flex items-center gap-4">
+<!-- Photo Upload Frame with Camera Glyph -->
+<div class="relative shrink-0">
+<div class="w-20 h-20 rounded-full bg-surface-container flex items-center justify-center overflow-hidden" id="avatarContainer">
+<img class="w-full h-full object-cover hidden" data-alt="Close up warm headshot portrait of an Indian male service technician smiling confidently, wearing a clean royal blue polo uniform with a subtle branded badge, soft studio lighting on clean neutral slate background" id="avatarImage" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCGr8xJXEA5MLdMjMkzQULdK3wqXuR736uQZcEodGpexcQgoUMf3uwVIYlMImYk9sHrZSdeZXgKTT9I7c0i_zDnFSLcZ8TI1F3V8Ot-QtzNoVHrju5Ekbh4zP2mM1fYa8qJZwPypotu-t2UTTHAuiZdygeSx11JecgfEreUowNxOrb3Dssw39h6QlBFW6Zq1QQgGzesOcN7WdtllIpNUhwKvoYn9fm5_BxJD0VR5Ibk1K_LEwjfMyGqWQ">
+<span class="material-symbols-outlined text-on-surface-variant text-[36px]" id="avatarPlaceholderIcon">account_circle</span>
+</div>
+<button class="absolute bottom-0 right-0 w-7 h-7 rounded-full bg-primary text-on-primary flex items-center justify-center shadow-md active:scale-95 transition-transform" onclick="triggerPhotoUpload()" type="button">
+<span class="material-symbols-outlined text-[16px]">photo_camera</span>
+</button>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center gap-2 mb-1">
+<h2 class="font-headline-sm text-headline-sm text-on-surface truncate" id="screenSubHeading">Technician Identity</h2>
+<span class="hidden inline-flex items-center gap-1 bg-tertiary-container text-on-tertiary px-1.5 py-0.5 rounded-full font-label-sm text-label-sm" id="verifiedBadge">
+<span class="material-symbols-outlined text-[12px]">verified</span> Verified
+            </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Tap badge to upload official portrait</p>
+<div class="mt-2 flex items-center gap-2">
+<button class="bg-surface-container hover:bg-surface-container-high text-primary font-label-md text-label-md px-3 py-1.5 rounded-lg flex items-center gap-1.5 transition-colors" onclick="triggerPhotoUpload()" type="button">
+<span class="material-symbols-outlined text-[16px]">upload_file</span>
+<span id="photoBtnLabel" class="">Upload Photo</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Active for Dispatch Toggle Pill -->
+<div class="bg-surface-container-low rounded-xl p-3 flex items-center justify-between gap-3">
+<div class="min-w-0">
+<div class="flex items-center gap-1.5">
+<span class="font-label-lg text-label-lg text-on-surface">Active for Dispatch</span>
+<span class="w-2 h-2 rounded-full bg-tertiary-container animate-pulse" id="statusLiveChip"></span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant truncate">Receives immediate ticket dispatches &amp; route alerts</p>
+</div>
+<label class="relative inline-flex items-center cursor-pointer shrink-0">
+<input checked="" class="sr-only peer" id="dispatchToggle" onchange="toggleDispatchVisual(this)" type="checkbox">
+<div class="w-12 h-7 bg-surface-container-highest peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[3px] after:bg-white after:rounded-full after:h-6 after:w-6 after:transition-all peer-checked:bg-tertiary-container"></div>
+</label>
+</div>
+</div>
+</section>
+<!-- Section 2: Basic Contact Information -->
+<section class="px-gutter">
+<div class="bg-surface-container-lowest rounded-xl p-4 shadow-[0_1px_3px_0_rgba(8,38,74,0.04)] space-y-4">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-7 h-7 rounded-lg bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[18px]">person</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Contact Information</h3>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Required *</span>
+</div>
+<!-- Full Name -->
+<div class="space-y-1">
+<label class="font-label-md text-label-md text-on-surface flex items-center gap-1" for="techName">
+          Full Name <span class="text-error">*</span>
+</label>
+<div class="relative">
+<input class="w-full h-14 px-3.5 rounded-xl bg-surface-container-low text-on-surface placeholder:text-on-surface-variant/60 font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none transition-all" id="techName" placeholder="e.g., Amit Sharma" type="text">
+</div>
+<p class="hidden font-body-sm text-body-sm text-error flex items-center gap-1 pt-1" id="errName">
+<span class="material-symbols-outlined text-[14px]">error</span> Full name is required to assign service duties
+        </p>
+</div>
+<!-- Primary Phone with Import Button -->
+<div class="space-y-1">
+<label class="font-label-md text-label-md text-on-surface flex items-center justify-between" for="techPhone">
+<span class="">Primary Phone (+91) <span class="text-error">*</span></span>
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-0.5">SMS &amp; WhatsApp Enabled</span>
+</label>
+<div class="flex items-center gap-2">
+<div class="relative flex-1">
+<div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-on-surface-variant font-label-md text-label-md">
+              +91
+            </div>
+<input class="w-full h-14 pl-12 pr-3 rounded-xl bg-surface-container-low text-on-surface placeholder:text-on-surface-variant/60 font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none transition-all" id="techPhone" maxlength="10" placeholder="98765 43210" type="tel">
+</div>
+<button class="h-14 px-3.5 rounded-xl bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md flex items-center gap-1.5 shrink-0 active:scale-95 transition-transform" onclick="showModal('contactPermModal')" title="Select from device contacts" type="button">
+<span class="material-symbols-outlined text-[20px]">contacts</span>
+<span class="hidden sm:inline">Import</span>
+</button>
+</div>
+<p class="hidden font-body-sm text-body-sm text-error flex items-center gap-1 pt-1" id="errPhone">
+<span class="material-symbols-outlined text-[14px]">error</span> Please enter a valid 10-digit Indian mobile number
+        </p>
+<div class="hidden bg-error-container text-on-error-container p-2.5 rounded-lg flex items-start gap-2 mt-1" id="duplicateAlert">
+<span class="material-symbols-outlined text-[18px] text-error shrink-0 mt-0.5">warning</span>
+<span class="font-body-sm text-body-sm">Conflict: This phone belongs to <strong class="font-semibold">Rajesh Kumar (#SRV-201)</strong>. Cannot re-register without archival.</span>
+</div>
+</div>
+<!-- Secondary Phone & Email (Collapsible/Optional) -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
+<div class="space-y-1">
+<label class="font-label-md text-label-md text-on-surface-variant" for="techAltPhone">Emergency Phone (Optional)</label>
+<input class="w-full h-12 px-3 rounded-xl bg-surface-container-low text-on-surface placeholder:text-on-surface-variant/60 font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none transition-all" id="techAltPhone" placeholder="Alternate family contact" type="tel">
+</div>
+<div class="space-y-1">
+<label class="font-label-md text-label-md text-on-surface-variant" for="techEmail">Email Address (Optional)</label>
+<input class="w-full h-12 px-3 rounded-xl bg-surface-container-low text-on-surface placeholder:text-on-surface-variant/60 font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none transition-all" id="techEmail" placeholder="technician@email.com" type="email">
+</div>
+</div>
+</div>
+</section>
+<!-- Section 3: Specialization & Trade Skills -->
+<section class="px-gutter">
+<div class="bg-surface-container-lowest rounded-xl p-4 shadow-[0_1px_3px_0_rgba(8,38,74,0.04)] space-y-4">
+<div class="flex items-center gap-2">
+<div class="w-7 h-7 rounded-lg bg-secondary-container flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined text-[18px]">build</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Specialization &amp; Skills</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Used to auto-match smart ticket dispatch logic</p>
+</div>
+</div>
+<!-- Primary Specialization Dropdown -->
+<div class="space-y-1">
+<label class="font-label-md text-label-md text-on-surface" for="primarySpec">Primary Domain <span class="text-error">*</span></label>
+<div class="relative">
+<select class="w-full h-14 pl-3 pr-10 rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none appearance-none transition-all" id="primarySpec">
+<option value="water">RO &amp; Water Purifiers</option>
+<option value="hvac">AC / HVAC Servicing</option>
+<option value="electrical">Electrical Wiring &amp; Panels</option>
+<option value="solar">Solar Inverter &amp; Battery</option>
+<option value="appliance">Major Appliance Repair</option>
+</select>
+<div class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]">expand_more</span>
+</div>
+</div>
+</div>
+<!-- Multi-Select Skill Chips -->
+<div class="space-y-2">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface">Certified Capabilities</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Tap to tag</span>
+</div>
+<div class="flex flex-wrap gap-2" id="skillsChipGroup">
+<button class="h-9 px-3 rounded-full font-label-md text-label-md bg-primary text-on-primary shadow-sm flex items-center gap-1.5 transition-all" onclick="toggleChip(this)" type="button">
+<span class="material-symbols-outlined text-[16px]">check</span>
+<span class="">Membrane Change</span>
+</button>
+<button class="h-9 px-3 rounded-full font-label-md text-label-md bg-primary text-on-primary shadow-sm flex items-center gap-1.5 transition-all" onclick="toggleChip(this)" type="button">
+<span class="material-symbols-outlined text-[16px]">check</span>
+<span class="">TDS Testing</span>
+</button>
+<button class="h-9 px-3 rounded-full font-label-md text-label-md bg-surface-container text-on-surface-variant flex items-center gap-1.5 transition-all" onclick="toggleChip(this)" type="button">
+<span class="material-symbols-outlined text-[16px] hidden">check</span>
+<span class="">Gas Refilling</span>
+</button>
+<button class="h-9 px-3 rounded-full font-label-md text-label-md bg-surface-container text-on-surface-variant flex items-center gap-1.5 transition-all" onclick="toggleChip(this)" type="button">
+<span class="material-symbols-outlined text-[16px] hidden">check</span>
+<span class="">PCB Repair</span>
+</button>
+<button class="h-9 px-3 rounded-full font-label-md text-label-md bg-primary text-on-primary shadow-sm flex items-center gap-1.5 transition-all" onclick="toggleChip(this)" type="button">
+<span class="material-symbols-outlined text-[16px]">check</span>
+<span class="">Installation</span>
+</button>
+<button class="h-9 px-3 rounded-full font-label-md text-label-md bg-surface-container text-on-surface-variant flex items-center gap-1.5 transition-all" onclick="toggleChip(this)" type="button">
+<span class="material-symbols-outlined text-[16px] hidden">check</span>
+<span class="">AMC Maintenance</span>
+</button>
+</div>
+</div>
+<!-- Experience Level Radio Segmentation -->
+<div class="space-y-1.5 pt-1">
+<label class="font-label-md text-label-md text-on-surface">Experience Rating</label>
+<div class="grid grid-cols-3 gap-2">
+<label class="cursor-pointer">
+<input class="sr-only peer" name="expLevel" type="radio" value="junior">
+<div class="p-2.5 rounded-xl bg-surface-container-low peer-checked:bg-primary peer-checked:text-on-primary text-on-surface-variant text-center transition-all">
+<p class="font-label-md text-label-md">Junior</p>
+<p class="font-label-sm text-label-sm opacity-80">1-2 yrs</p>
+</div>
+</label>
+<label class="cursor-pointer">
+<input checked="" class="sr-only peer" name="expLevel" type="radio" value="senior">
+<div class="p-2.5 rounded-xl bg-surface-container-low peer-checked:bg-primary peer-checked:text-on-primary text-on-surface-variant text-center transition-all">
+<p class="font-label-md text-label-md">Senior</p>
+<p class="font-label-sm text-label-sm opacity-80">3-5 yrs</p>
+</div>
+</label>
+<label class="cursor-pointer">
+<input class="sr-only peer" name="expLevel" type="radio" value="master">
+<div class="p-2.5 rounded-xl bg-surface-container-low peer-checked:bg-primary peer-checked:text-on-primary text-on-surface-variant text-center transition-all">
+<p class="font-label-md text-label-md">Master Tech</p>
+<p class="font-label-sm text-label-sm opacity-80">5+ yrs</p>
+</div>
+</label>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 4: Assigned Hub, Territory & Operational Notes -->
+<section class="px-gutter">
+<div class="bg-surface-container-lowest rounded-xl p-4 shadow-[0_1px_3px_0_rgba(8,38,74,0.04)] space-y-4">
+<div class="flex items-center gap-2">
+<div class="w-7 h-7 rounded-lg bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed">
+<span class="material-symbols-outlined text-[18px]">location_on</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Territory &amp; Dispatch Base</h3>
+</div>
+<!-- Service Hub Territory -->
+<div class="space-y-1">
+<label class="font-label-md text-label-md text-on-surface" for="hubTerritory">Assigned Service Hub</label>
+<div class="relative">
+<span class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]">near_me</span>
+</span>
+<input class="w-full h-14 pl-10 pr-3 rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none transition-all" id="hubTerritory" type="text" value="South Bengaluru Sector 4">
+</div>
+</div>
+<!-- Operational Map Graphic Placeholder -->
+<div class="relative rounded-xl overflow-hidden shadow-sm">
+<div class="w-full h-28 bg-cover bg-center" data-location="Koramangala, Bengaluru" style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuDHuQcJ43fzm0cAtsoHy-cMXe4DlTmoE2RHcEyfQbUE1QjwtxOhKEmlGeyryk0lRcukKXDhi7WHnUyu-qmwAJWlkBfOHdfWhqQnDn-eQTr34OuKBH-zTuSSEtw0wu0rUdCuj9zOgHNzTHrV8OxelhBPTUMfooplhZkfaT9fujXAbMuaH66gD3NuNzGHsh6IlfyzDtKy0Q8NOmd2Wp2va_ZqAmxtsAJVnT3AG3sc1EkjZkWbfe9Vc6lK-w&quot;);"></div>
+<div class="absolute bottom-2 left-2 bg-inverse-surface/85 backdrop-blur-md px-2.5 py-1 rounded-lg flex items-center gap-1.5 text-inverse-on-surface">
+<span class="material-symbols-outlined text-tertiary-fixed text-[16px]">radar</span>
+<span class="font-label-sm text-label-sm">Live Location</span>
+</div>
+</div>
+<!-- Residential / Base Address -->
+<div class="space-y-1">
+<label class="font-label-md text-label-md text-on-surface" for="resAddress">Base Address (For Transit Distance Calculation)</label>
+<textarea class="w-full p-3 rounded-xl bg-surface-container-low text-on-surface placeholder:text-on-surface-variant/60 font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none transition-all resize-none" id="resAddress" placeholder="e.g. #42, 14th Cross, 2nd Main, BTM Layout 2nd Stage" rows="2"></textarea>
+</div>
+<!-- Internal Administrative Notes -->
+<div class="space-y-1">
+<label class="font-label-md text-label-md text-on-surface flex items-center justify-between" for="adminNotes">
+<span class="">Internal Tech Notes</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Visible to Admin Only</span>
+</label>
+<textarea class="w-full p-3 rounded-xl bg-surface-container-low text-on-surface placeholder:text-on-surface-variant/60 font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none transition-all resize-none" id="adminNotes" placeholder="Police verification cleared, toolbox #TK-402 issued, ISO certified" rows="2"></textarea>
+</div>
+</div>
+</section>
+<!-- Sticky Bottom Ergonomic Action Bar -->
+<div class="fixed bottom-0 inset-x-0 bg-surface-container-lowest shadow-[0_-2px_12px_rgba(8,38,74,0.08)] z-40 px-gutter py-3">
+<div class="max-w-md mx-auto flex items-center gap-3">
+<button class="h-12 px-5 rounded-xl bg-surface-container hover:bg-surface-container-high text-on-surface font-label-lg text-label-lg transition-colors shrink-0" onclick="showModal('unsavedChangesModal')" type="button">
+        Cancel
+      </button>
+<button class="flex-1 h-12 rounded-xl bg-primary-container hover:opacity-95 text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-2 shadow-md active:scale-[0.98] transition-all" onclick="handleSaveAction()" type="button">
+<span class="material-symbols-outlined text-[20px]">save</span>
+<span id="btnSaveText" class="">Save Technician</span>
+</button>
+</div>
+</div>
+<!-- MODAL 1: Contact Picker Permission Denied System Dialog -->
+<div class="fixed inset-0 z-50 bg-inverse-surface/60 backdrop-blur-sm flex items-center justify-center px-6 hidden" id="contactPermModal">
+<div class="bg-surface-container-lowest rounded-2xl p-5 w-full max-w-sm shadow-xl space-y-4 animate-in fade-in zoom-in duration-200">
+<div class="w-12 h-12 rounded-full bg-secondary-fixed flex items-center justify-center text-primary mx-auto">
+<span class="material-symbols-outlined text-[28px]">perm_contact_calendar</span>
+</div>
+<div class="text-center space-y-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Allow Servizo to access contacts?</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Servizo requires contact list permissions to swiftly pick technician phone numbers and emergency records without manual typing.
+        </p>
+</div>
+<div class="space-y-2 pt-2">
+<button class="w-full h-12 rounded-xl bg-primary text-on-primary font-label-lg text-label-lg shadow-sm" onclick="applyImportMock()" type="button">
+          Grant Permission &amp; Import
+        </button>
+<button class="w-full h-12 rounded-xl bg-surface-container hover:bg-surface-container-high text-on-surface font-label-lg text-label-lg" onclick="hideModal('contactPermModal')" type="button">
+          Continue Manually
+        </button>
+</div>
+</div>
+</div>
+<!-- MODAL 2: Unsaved Changes Dialog -->
+<div class="fixed inset-0 z-50 bg-inverse-surface/60 backdrop-blur-sm flex items-center justify-center px-6 hidden" id="unsavedChangesModal">
+<div class="bg-surface-container-lowest rounded-2xl p-5 w-full max-w-sm shadow-xl space-y-4">
+<div class="w-12 h-12 rounded-full bg-error-container flex items-center justify-center text-error mx-auto">
+<span class="material-symbols-outlined text-[28px]">warning</span>
+</div>
+<div class="text-center space-y-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Discard Changes?</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          You have unsaved form entries for this technician profile. Leaving now will permanently discard all details.
+        </p>
+</div>
+<div class="space-y-2 pt-2">
+<button class="w-full h-12 rounded-xl bg-error text-on-error font-label-lg text-label-lg shadow-sm" onclick="discardAndReset()" type="button">
+          Discard &amp; Exit
+        </button>
+<button class="w-full h-12 rounded-xl bg-surface-container text-on-surface font-label-lg text-label-lg" onclick="hideModal('unsavedChangesModal')" type="button">
+          Keep Editing
+        </button>
+</div>
+</div>
+</div>
+<!-- Toast Notification Feedback -->
+<div class="fixed top-20 inset-x-4 max-w-sm mx-auto z-50 transform -translate-y-10 opacity-0 pointer-events-none transition-all duration-300" id="toastNotification">
+<div class="bg-inverse-surface text-inverse-on-surface px-4 py-3 rounded-xl shadow-lg flex items-center gap-3">
+<span class="material-symbols-outlined text-tertiary-fixed text-[22px]" id="toastIcon">check_circle</span>
+<span class="font-body-md text-body-md flex-1" id="toastMessage">Technician profile saved successfully!</span>
+</div>
+</div>
+</div>
+<script>
+  let currentMode = 'add'; // 'add' or 'edit'
+
+  function switchState(state) {
+    // Reset buttons
+    ['btnStateClean', 'btnStateEdit', 'btnStateError'].forEach(id => {
+      const b = document.getElementById(id);
+      if(b) {
+        b.className = 'px-2.5 py-1.5 rounded-lg font-label-sm text-label-sm bg-surface-container text-on-surface-variant transition-all';
+      }
+    });
+
+    const nameInput = document.getElementById('techName');
+    const phoneInput = document.getElementById('techPhone');
+    const altPhoneInput = document.getElementById('techAltPhone');
+    const emailInput = document.getElementById('techEmail');
+    const errName = document.getElementById('errName');
+    const errPhone = document.getElementById('errPhone');
+    const duplicateAlert = document.getElementById('duplicateAlert');
+    const editBanner = document.getElementById('editModeBanner');
+    const avatarImg = document.getElementById('avatarImage');
+    const avatarIcon = document.getElementById('avatarPlaceholderIcon');
+    const verifiedBadge = document.getElementById('verifiedBadge');
+    const btnSaveText = document.getElementById('btnSaveText');
+    const screenSub = document.getElementById('screenSubHeading');
+    const photoBtnLabel = document.getElementById('photoBtnLabel');
+
+    if (state === 'clean') {
+      document.getElementById('btnStateClean').className = 'px-2.5 py-1.5 rounded-lg font-label-sm text-label-sm bg-primary text-on-primary shadow-sm transition-all';
+      currentMode = 'add';
+      editBanner.classList.add('hidden');
+      verifiedBadge.classList.add('hidden');
+      avatarImg.classList.add('hidden');
+      avatarIcon.classList.remove('hidden');
+      nameInput.value = '';
+      phoneInput.value = '';
+      altPhoneInput.value = '';
+      emailInput.value = '';
+      errName.classList.add('hidden');
+      errPhone.classList.add('hidden');
+      duplicateAlert.classList.add('hidden');
+      btnSaveText.textContent = 'Save Technician';
+      screenSub.textContent = 'Technician Identity';
+      photoBtnLabel.textContent = 'Upload Photo';
+      showToast('Form reset to clean draft mode.', 'refresh');
+    } else if (state === 'edit') {
+      document.getElementById('btnStateEdit').className = 'px-2.5 py-1.5 rounded-lg font-label-sm text-label-sm bg-primary text-on-primary shadow-sm transition-all';
+      currentMode = 'edit';
+      editBanner.classList.remove('hidden');
+      verifiedBadge.classList.remove('hidden');
+      avatarImg.classList.remove('hidden');
+      avatarIcon.classList.add('hidden');
+      nameInput.value = 'Ramesh Verma';
+      phoneInput.value = '9845012345';
+      altPhoneInput.value = '9845099887';
+      emailInput.value = 'ramesh.v@servizo.in';
+      errName.classList.add('hidden');
+      errPhone.classList.add('hidden');
+      duplicateAlert.classList.add('hidden');
+      btnSaveText.textContent = 'Update Profile';
+      screenSub.textContent = 'Ramesh Verma';
+      photoBtnLabel.textContent = 'Change Photo';
+      showToast('Loaded existing profile: #SRV-8821', 'manage_accounts');
+    } else if (state === 'error') {
+      document.getElementById('btnStateError').className = 'px-2.5 py-1.5 rounded-lg font-label-sm text-label-sm bg-error text-on-error shadow-sm transition-all';
+      nameInput.value = '';
+      phoneInput.value = '98450';
+      errName.classList.remove('hidden');
+      errPhone.classList.remove('hidden');
+      duplicateAlert.classList.remove('hidden');
+      nameInput.classList.add('ring-2', 'ring-error');
+      phoneInput.classList.add('ring-2', 'ring-error');
+      showToast('Validation errors triggered!', 'report_problem');
+    }
+  }
+
+  function toggleChip(btn) {
+    const isSelected = btn.classList.contains('bg-primary');
+    const checkIcon = btn.querySelector('.material-symbols-outlined');
+    if (isSelected) {
+      btn.className = 'h-9 px-3 rounded-full font-label-md text-label-md bg-surface-container text-on-surface-variant flex items-center gap-1.5 transition-all';
+      if (checkIcon) checkIcon.classList.add('hidden');
+    } else {
+      btn.className = 'h-9 px-3 rounded-full font-label-md text-label-md bg-primary text-on-primary shadow-sm flex items-center gap-1.5 transition-all';
+      if (checkIcon) checkIcon.classList.remove('hidden');
+    }
+  }
+
+  function toggleDispatchVisual(checkbox) {
+    const pulseDot = document.getElementById('statusLiveChip');
+    if (checkbox.checked) {
+      pulseDot.classList.remove('hidden');
+      showToast('Technician marked Active for immediate dispatch.', 'check_circle');
+    } else {
+      pulseDot.classList.add('hidden');
+      showToast('Technician on Standby / Off-duty.', 'do_not_disturb_on');
+    }
+  }
+
+  function triggerPhotoUpload() {
+    const avatarImg = document.getElementById('avatarImage');
+    const avatarIcon = document.getElementById('avatarPlaceholderIcon');
+    const photoBtnLabel = document.getElementById('photoBtnLabel');
+    avatarImg.classList.remove('hidden');
+    avatarIcon.classList.add('hidden');
+    photoBtnLabel.textContent = 'Change Photo';
+    showToast('Photo captured & uploaded successfully', 'add_a_photo');
+  }
+
+  function showModal(id) {
+    const m = document.getElementById(id);
+    if(m) m.classList.remove('hidden');
+  }
+
+  function hideModal(id) {
+    const m = document.getElementById(id);
+    if(m) m.classList.add('hidden');
+  }
+
+  function applyImportMock() {
+    hideModal('contactPermModal');
+    document.getElementById('techName').value = 'Vikramaditya Rao';
+    document.getElementById('techPhone').value = '9900887766';
+    document.getElementById('techEmail').value = 'vikram.rao@gmail.com';
+    document.getElementById('errName').classList.add('hidden');
+    document.getElementById('errPhone').classList.add('hidden');
+    document.getElementById('duplicateAlert').classList.add('hidden');
+    showToast('Contact imported: Vikramaditya Rao', 'contacts');
+  }
+
+  function discardAndReset() {
+    hideModal('unsavedChangesModal');
+    switchState('clean');
+    showToast('All changes discarded', 'delete');
+  }
+
+  function handleSaveAction() {
+    const name = document.getElementById('techName').value.trim();
+    const phone = document.getElementById('techPhone').value.trim();
+
+    if (!name || phone.length < 10) {
+      switchState('error');
+      return;
+    }
+
+    const actionText = currentMode === 'edit' ? 'Technician updated successfully!' : 'Technician onboarded & dispatched!';
+    showToast(actionText, 'task_alt');
+  }
+
+  function showToast(msg, iconName = 'check_circle') {
+    const toast = document.getElementById('toastNotification');
+    const text = document.getElementById('toastMessage');
+    const icon = document.getElementById('toastIcon');
+
+    text.textContent = msg;
+    icon.textContent = iconName;
+
+    toast.classList.remove('-translate-y-10', 'opacity-0', 'pointer-events-none');
+    toast.classList.add('translate-y-0', 'opacity-100');
+
+    setTimeout(() => {
+      toast.classList.add('-translate-y-10', 'opacity-0', 'pointer-events-none');
+      toast.classList.remove('translate-y-0', 'opacity-100');
+    }, 2800);
+  }
+</script></main><div class="fixed bottom-0 inset-x-0 pb-safe pointer-events-none flex justify-center"><div class="h-3 w-full flex items-center justify-center pb-1"><div class="w-32 h-1 bg-on-surface-variant/30 rounded-full"></div></div></div>
+
+</body></html>

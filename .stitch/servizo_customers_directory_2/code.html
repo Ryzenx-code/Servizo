@@ -1,0 +1,479 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_tab" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100..900&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{width:100vw;margin:0;padding:0;min-height:100%;}body{overscroll-behavior-y:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "on-primary": "#ffffff", "on-surface": "#191c1e", "primary": "#0046b0", "background": "#f7f9fb", "surface-container-highest": "#e0e3e5", "on-error-container": "#93000a", "surface-dim": "#d8dadc", "on-tertiary-fixed": "#002113", "surface-tint": "#0055d3", "on-tertiary-container": "#70fcbf", "inverse-primary": "#b2c5ff", "on-primary-container": "#dbe2ff", "on-primary-fixed": "#001848", "surface-container-low": "#f2f4f6", "inverse-on-surface": "#eff1f3", "on-secondary-container": "#40597f", "outline-variant": "#c3c6d7", "on-tertiary-fixed-variant": "#005236", "primary-fixed": "#dae2ff", "secondary": "#475f86", "on-secondary-fixed-variant": "#2f476d", "surface-container-high": "#e6e8ea", "primary-fixed-dim": "#b2c5ff", "on-secondary-fixed": "#001b3c", "on-primary-fixed-variant": "#0040a2", "on-error": "#ffffff", "secondary-fixed": "#d5e3ff", "tertiary-fixed-dim": "#4edea3", "primary-container": "#0d5cde", "surface-container": "#eceef0", "error-container": "#ffdad6", "surface-variant": "#e0e3e5", "on-secondary": "#ffffff", "surface-container-lowest": "#ffffff", "on-surface-variant": "#424654", "tertiary-fixed": "#6ffbbe", "surface": "#f7f9fb", "on-tertiary": "#ffffff", "secondary-container": "#b7d0fd", "outline": "#737686", "surface-bright": "#f7f9fb", "tertiary-container": "#00744f", "tertiary": "#00593c", "inverse-surface": "#2d3133", "error": "#ba1a1a", "on-background": "#191c1e", "secondary-fixed-dim": "#afc7f4" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-sm": "0.5rem", "space-lg": "1.5rem", "margin": "1rem", "space-xl": "2rem", "space-xs": "0.25rem", "space-md": "1rem", "gutter": "1rem" }, fontFamily: { "headline-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"] }, fontSize: { "headline-md": ["22px", { lineHeight: "28px", letterSpacing: "-0.01em", fontWeight: "700" }], "headline-lg-mobile": ["26px", { lineHeight: "34px", letterSpacing: "-0.01em", fontWeight: "800" }], "label-md": ["12px", { lineHeight: "16px", letterSpacing: "0.02em", fontWeight: "600" }], "body-lg": ["16px", { lineHeight: "24px", fontWeight: "500" }], "headline-sm": ["18px", { lineHeight: "24px", fontWeight: "700" }], "label-lg": ["14px", { lineHeight: "20px", letterSpacing: "0.01em", fontWeight: "600" }], "body-sm": ["12px", { lineHeight: "16px", fontWeight: "400" }], "body-md": ["14px", { lineHeight: "20px", fontWeight: "400" }], "label-sm": ["10px", { lineHeight: "14px", letterSpacing: "0.04em", fontWeight: "700" }], "headline-lg": ["32px", { lineHeight: "40px", letterSpacing: "-0.02em", fontWeight: "800" }] } } } };</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased flex flex-col min-h-screen"><header class="fixed top-0 inset-x-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(8,38,74,0.04)] pt-safe"><div class="h-16 px-gutter flex items-center justify-between"><div class="flex items-center gap-space-sm"><div class="w-9 h-9 rounded-xl bg-primary-container flex items-center justify-center shadow-[0_2px_6px_rgba(13,92,222,0.25)]"><span class="material-symbols-outlined text-on-primary text-[20px]">build_circle</span></div><div class="flex flex-col"><span class="font-label-sm text-label-sm text-primary uppercase tracking-wider">Servizo</span><h1 class="font-headline-sm text-headline-sm text-on-surface leading-none">Customers</h1></div></div><div class="flex items-center gap-space-xs"><button aria-label="Search" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors"><span class="material-symbols-outlined text-[22px]">search</span></button><button aria-label="Notifications" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors"><span class="material-symbols-outlined text-[22px]">notifications</span></button><div class="pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover shadow-[0_1px_3px_rgba(8,38,74,0.1)]" src="https://lh3.googleusercontent.com/aida/AEtjO1UIsGO6kvVVP1HQV8Vd7QlQH5KVY6_FLLfU1yGILxIC-sK4Y9JU0X4mT6grX9TXjMgok_Bc4k_MVy9deUIRqbtqZqrYkgYvmt3Oq__QSR3wJaboZGoGbHqaoXT9NfqDCrGDtoYb5iM_bE8AI7--B6gzMvC35_FWTbbDZU-5d1_olWx3JPoxCKAmAcFwAd01qRImhKM_ZBdWFJ2hBknhP3MoKEGPd_7pnVeXOtudD5gTkGmGFq_rUCxSh9XHCjmFJQNeFL7RlqW0Evo"></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-24 bg-surface"><div class="flex flex-col w-full pb-8">
+<!-- Interactive State Switcher (Demo / Prototype Controller) -->
+<section class="px-gutter pt-3 pb-2 bg-surface-container-low">
+<div class="flex items-center justify-between gap-2 overflow-x-auto no-scrollbar py-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider whitespace-nowrap">Screen State:</span>
+<div class="flex items-center gap-1.5 flex-nowrap">
+<button class="state-pill px-3 py-1.5 rounded-full font-label-sm text-label-sm bg-primary text-on-primary shadow-sm whitespace-nowrap transition-all duration-200" id="btn-state-populated" onclick="setScreenView('populated')">
+          Populated List
+        </button>
+<button class="state-pill px-3 py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container text-on-surface-variant hover:bg-surface-container-high whitespace-nowrap transition-all duration-200" id="btn-state-no-results" onclick="setScreenView('no-results')">
+          No Results
+        </button>
+<button class="state-pill px-3 py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container text-on-surface-variant hover:bg-surface-container-high whitespace-nowrap transition-all duration-200" id="btn-state-empty" onclick="setScreenView('empty')">
+          Empty State
+        </button>
+<button class="state-pill px-3 py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container text-on-surface-variant hover:bg-surface-container-high whitespace-nowrap transition-all duration-200 flex items-center gap-1" id="btn-state-offline" onclick="toggleOfflineBanner()">
+<span class="w-2 h-2 rounded-full bg-error"></span>
+          Toggle Sync Alert
+        </button>
+</div>
+</div>
+</section>
+<!-- Offline Status Alert Strip -->
+<section class="px-gutter pt-2 transition-all duration-300" id="offline-bar">
+<div class="bg-secondary-container text-on-secondary-container px-3.5 py-2.5 rounded-xl shadow-sm flex items-center justify-between gap-3">
+<div class="flex items-center gap-2.5 min-w-0">
+<span class="w-2.5 h-2.5 rounded-full bg-error animate-pulse flex-shrink-0"></span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md font-semibold truncate text-on-secondary-container">Offline Mode Active</span>
+<span class="font-body-sm text-body-sm text-on-secondary-container opacity-90 truncate">3 unsynced customer records cached safely</span>
+</div>
+</div>
+<div class="flex items-center gap-1 flex-shrink-0">
+<button class="px-2.5 py-1 rounded-lg bg-surface-container-lowest text-primary font-label-sm text-label-sm font-bold shadow-xs hover:bg-surface-container-low transition-colors" onclick="simulateSync()">
+          Sync Now
+        </button>
+<button aria-label="Dismiss banner" class="w-7 h-7 flex items-center justify-center rounded-full text-on-secondary-container hover:bg-surface-container-high/40 transition-colors" onclick="dismissOffline()">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Header & Directory Stats Title -->
+<header class="px-gutter pt-4 pb-2">
+<div class="flex items-center justify-between gap-2">
+<div class="flex items-center gap-2.5 min-w-0">
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight">Customers</h2>
+<span class="inline-flex items-center px-2.5 py-0.5 rounded-full font-label-sm text-label-sm bg-primary-fixed text-on-primary-fixed font-bold tracking-wide">
+          148 Active
+        </span>
+</div>
+<div class="flex items-center gap-1.5 text-tertiary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-tertiary animate-spin" style="animation-duration: 4s;">sync</span>
+<span class="font-label-sm text-label-sm text-tertiary font-medium">Auto-sync 2m ago</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Commercial &amp; residential preventive care accounts</p>
+</header>
+<!-- Search Input Bar -->
+<section class="px-gutter pt-2">
+<div class="relative flex items-center w-full">
+<span class="material-symbols-outlined absolute left-3.5 text-on-surface-variant text-[20px] pointer-events-none">search</span>
+<input class="w-full h-12 pl-11 pr-20 bg-surface-container-lowest text-on-surface font-body-md text-body-md rounded-xl shadow-xs placeholder:text-on-surface-variant/70 focus:outline-none focus:ring-0 focus:bg-surface-container-lowest transition-all" id="customer-search-input" oninput="handleSearch(this.value)" placeholder="Search customer, phone, serial #..." type="search" value="">
+<div class="absolute right-2 flex items-center gap-0.5">
+<button class="hidden w-8 h-8 rounded-full items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" id="search-clear-btn" onclick="clearSearchInput()" title="Clear text">
+<span class="material-symbols-outlined text-[18px]">cancel</span>
+</button>
+<button class="w-8 h-8 rounded-full flex items-center justify-center text-primary-container hover:bg-surface-container transition-colors" onclick="triggerVoiceSearch()" title="Voice search">
+<span class="material-symbols-outlined text-[20px]">mic</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Control Actions: Filters & Sort -->
+<section class="px-gutter pt-3 flex items-center gap-2"><button id="btn-open-filter" onclick="openFilterModal()" class="h-9 px-3 rounded-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md flex items-center gap-1.5 shadow-xs hover:bg-surface-container-low active:scale-95 transition-all duration-200"><span class="material-symbols-outlined text-primary-container text-[18px]">tune</span><span class="font-label-md text-label-md">Filter</span><span class="w-4 h-4 rounded-full bg-primary-container text-on-primary flex items-center justify-center text-[10px] font-bold">2</span></button><button id="btn-open-sort" onclick="openSortModal()" class="h-9 px-3 rounded-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md flex items-center gap-1.5 shadow-xs hover:bg-surface-container-low active:scale-95 transition-all duration-200"><span class="material-symbols-outlined text-on-surface-variant text-[18px]">sort</span><span class="font-label-md text-label-md text-on-surface-variant">Sort:</span><span id="active-sort-label" class="font-label-md text-label-md text-on-surface font-semibold">Next Service</span></button><div class="ml-auto text-on-surface-variant flex items-center"><span class="font-label-sm text-label-sm">Page 1/8</span></div></section>
+<!-- Segment Filter Chips -->
+<section class="pt-2.5 pb-2">
+<div class="flex items-center gap-2 overflow-x-auto no-scrollbar px-gutter"><button class="segment-chip h-8 px-3.5 rounded-full font-label-sm text-label-sm whitespace-nowrap bg-primary-container text-on-primary font-semibold shadow-xs transition-all duration-200 active:scale-95" onclick="handleSegmentChip(this, 'all')">All (148)</button><button class="segment-chip h-8 px-3 rounded-full font-label-sm text-label-sm whitespace-nowrap bg-surface-container-lowest text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low flex items-center gap-1.5 shadow-xs transition-all duration-200 active:scale-95" onclick="handleSegmentChip(this, 'overdue')"><span class="w-2 h-2 rounded-full bg-error"></span>Overdue (7)</button><button class="segment-chip h-8 px-3 rounded-full font-label-sm text-label-sm whitespace-nowrap bg-surface-container-lowest text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low flex items-center gap-1.5 shadow-xs transition-all duration-200 active:scale-95" onclick="handleSegmentChip(this, 'upcoming')"><span class="w-2 h-2 rounded-full bg-secondary"></span>Upcoming 7d (19)</button><button class="segment-chip h-8 px-3 rounded-full font-label-sm text-label-sm whitespace-nowrap bg-surface-container-lowest text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low shadow-xs transition-all duration-200 active:scale-95" onclick="handleSegmentChip(this, 'amc')">Active AMC (84)</button><button class="segment-chip h-8 px-3 rounded-full font-label-sm text-label-sm whitespace-nowrap bg-surface-container-lowest text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low shadow-xs transition-all duration-200 active:scale-95" onclick="handleSegmentChip(this, 'warranty')">In Warranty (42)</button></div>
+</section>
+<!-- ================= STATE 1: POPULATED LIST VIEW ================= -->
+<main class="flex flex-col gap-3 px-gutter pt-2" id="view-populated">
+<!-- Card 1: Overdue State -->
+<article class="bg-surface-container-lowest rounded-2xl p-4 shadow-sm relative overflow-hidden transition-all duration-200 active:scale-[0.99]">
+<!-- Status Left Ribbon Accent -->
+<div class="absolute left-0 top-0 bottom-0 w-1.5 bg-error"></div>
+<!-- Header: Avatar, Name, Quick Action Buttons -->
+<div class="flex items-start justify-between gap-3 pl-1">
+<div class="flex items-center gap-3 min-w-0">
+<div class="w-12 h-12 rounded-full bg-error-container text-on-error-container flex items-center justify-center font-headline-sm text-headline-sm flex-shrink-0 shadow-inner">
+            EM
+          </div>
+<div class="min-w-0">
+<h3 class="font-headline-sm text-headline-sm text-on-surface truncate">Eleanor Martinez</h3>
+<div class="flex items-center gap-1 text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[14px]">location_on</span>
+<span class="truncate">Westlake Hills, Austin</span>
+</div>
+</div>
+</div>
+<!-- Touch Target Compliant Action Buttons -->
+<div class="flex items-center gap-1 flex-shrink-0">
+<a aria-label="Call Eleanor Martinez" class="w-10 h-10 rounded-xl bg-surface-container-low text-primary flex items-center justify-center hover:bg-primary-container hover:text-on-primary transition-colors" href="tel:+15128839104">
+<span class="material-symbols-outlined text-[20px]">call</span>
+</a>
+<a aria-label="WhatsApp Eleanor Martinez" class="w-10 h-10 rounded-xl bg-surface-container-low text-tertiary flex items-center justify-center hover:bg-tertiary hover:text-on-tertiary transition-colors" href="https://wa.me/15128839104" rel="noopener" target="_blank">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+</a>
+</div>
+</div>
+<!-- Equipment Details Block -->
+<div class="mt-3.5 pl-1 bg-surface-container-low p-2.5 rounded-xl flex items-center justify-between gap-2">
+<div class="flex items-center gap-2 min-w-0">
+<span class="material-symbols-outlined text-primary text-[20px]">hvac</span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider font-bold">Assigned Equipment</span>
+<span class="font-label-lg text-label-lg text-on-surface truncate font-semibold">Daikin VRV IV-S Heat Pump (AC-9042)</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant text-[18px]">chevron_right</span>
+</div>
+<!-- Alert Metric: Next Service Overdue -->
+<div class="mt-3 pl-1 flex items-center justify-between gap-2">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-error text-[18px]">event_busy</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Next Service:</span>
+<span class="font-label-md text-label-md text-on-surface font-bold">Oct 14, 2024</span>
+</div>
+<span class="px-2.5 py-0.5 rounded-full font-label-sm text-label-sm bg-error-container text-on-error-container font-extrabold tracking-tight flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-error"></span>
+          OVERDUE (3 days)
+        </span>
+</div>
+<!-- Badges Row -->
+<div class="mt-2.5 pl-1 flex flex-wrap items-center gap-1.5">
+<span class="px-2.5 py-1 rounded-full font-label-sm text-label-sm bg-tertiary-fixed text-on-tertiary-fixed font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">verified</span>
+          AMC Active (Gold)
+        </span>
+<span class="px-2.5 py-1 rounded-full font-label-sm text-label-sm bg-error-container text-on-error-container font-medium">
+          Preventive Service Due
+        </span>
+<span class="px-2.5 py-1 rounded-full font-label-sm text-label-sm bg-surface-container text-on-surface-variant font-medium">
+          Residential
+        </span>
+</div>
+<!-- Footer Info -->
+<div class="mt-3 pl-1 pt-2.5 flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm">
+<div class="flex items-center gap-1 truncate">
+<span class="material-symbols-outlined text-[15px]">history</span>
+<span class="truncate">Apr 12, 2024 • Filter &amp; Coil Cleaning</span>
+</div>
+<button class="font-label-sm text-label-sm text-primary font-bold hover:underline flex-shrink-0">
+          Book Dispatch
+        </button>
+</div>
+</article>
+<!-- Card 2: Upcoming Service State -->
+<article class="bg-surface-container-lowest rounded-2xl p-4 shadow-sm relative overflow-hidden transition-all duration-200 active:scale-[0.99]">
+<!-- Status Left Ribbon Accent -->
+<div class="absolute left-0 top-0 bottom-0 w-1.5 bg-secondary"></div>
+<!-- Header: Avatar, Name, Direct Call -->
+<div class="flex items-start justify-between gap-3 pl-1">
+<div class="flex items-center gap-3 min-w-0">
+<div class="w-12 h-12 rounded-full bg-primary-container text-on-primary flex items-center justify-center font-headline-sm text-headline-sm flex-shrink-0 shadow-inner">
+            RK
+          </div>
+<div class="min-w-0">
+<h3 class="font-headline-sm text-headline-sm text-on-surface truncate">Robert &amp; Karen Chen</h3>
+<div class="flex items-center gap-1 text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[14px]">location_on</span>
+<span class="truncate">Bouldin Creek, Austin</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-1 flex-shrink-0">
+<a aria-label="Call Robert &amp; Karen Chen" class="w-10 h-10 rounded-xl bg-surface-container-low text-primary flex items-center justify-center hover:bg-primary-container hover:text-on-primary transition-colors" href="tel:+15124412910">
+<span class="material-symbols-outlined text-[20px]">call</span>
+</a>
+</div>
+</div>
+<!-- Equipment Details Block -->
+<div class="mt-3.5 pl-1 bg-surface-container-low p-2.5 rounded-xl flex items-center justify-between gap-2">
+<div class="flex items-center gap-2 min-w-0">
+<span class="material-symbols-outlined text-secondary text-[20px]">water_heater</span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider font-bold">Assigned Equipment</span>
+<span class="font-label-lg text-label-lg text-on-surface truncate font-semibold">Rheem Tankless Water Heater 9.5 GPM</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant text-[18px]">chevron_right</span>
+</div>
+<!-- Service Date Indicator -->
+<div class="mt-3 pl-1 flex items-center justify-between gap-2">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary text-[18px]">schedule</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Scheduled:</span>
+<span class="font-label-md text-label-md text-on-surface font-bold">Tomorrow, 10:00 AM</span>
+</div>
+<span class="px-2.5 py-0.5 rounded-full font-label-sm text-label-sm bg-secondary-fixed text-on-secondary-fixed font-bold tracking-tight">
+          UPCOMING
+        </span>
+</div>
+<!-- Badges Row -->
+<div class="mt-2.5 pl-1 flex flex-wrap items-center gap-1.5">
+<span class="px-2.5 py-1 rounded-full font-label-sm text-label-sm bg-primary-fixed text-on-primary-fixed font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">shield</span>
+          Under 5-Yr Warranty
+        </span>
+<span class="px-2.5 py-1 rounded-full font-label-sm text-label-sm bg-surface-container text-on-surface-variant font-medium">
+          Tech Assigned: Marcus V.
+        </span>
+</div>
+<!-- Footer Info -->
+<div class="mt-3 pl-1 pt-2.5 flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm">
+<div class="flex items-center gap-1 truncate">
+<span class="material-symbols-outlined text-[15px]">history</span>
+<span class="truncate">Oct 15, 2023 • Annual Descaling</span>
+</div>
+<button class="font-label-sm text-label-sm text-primary font-bold hover:underline flex-shrink-0">
+          View Work Order
+        </button>
+</div>
+</article>
+<!-- Card 3: Standard In-Warranty & Commercial -->
+<article class="bg-surface-container-lowest rounded-2xl p-4 shadow-sm relative overflow-hidden transition-all duration-200 active:scale-[0.99]">
+<!-- Status Left Ribbon Accent -->
+<div class="absolute left-0 top-0 bottom-0 w-1.5 bg-tertiary"></div>
+<!-- Header: Avatar, Name, Direct Call -->
+<div class="flex items-start justify-between gap-3 pl-1">
+<div class="flex items-center gap-3 min-w-0">
+<div class="w-12 h-12 rounded-full bg-tertiary-container text-on-tertiary flex items-center justify-center font-headline-sm text-headline-sm flex-shrink-0 shadow-inner">
+            SL
+          </div>
+<div class="min-w-0">
+<div class="flex items-center gap-1.5">
+<h3 class="font-headline-sm text-headline-sm text-on-surface truncate">Summit Law Offices</h3>
+</div>
+<div class="flex items-center gap-1 text-on-surface-variant font-body-sm text-body-sm">
+<span class="font-semibold text-on-surface">David Vance</span>
+<span class="">•</span>
+<span class="truncate">Downtown Austin, Suite 400</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-1 flex-shrink-0">
+<a aria-label="Call David Vance at Summit Law" class="w-10 h-10 rounded-xl bg-surface-container-low text-primary flex items-center justify-center hover:bg-primary-container hover:text-on-primary transition-colors" href="tel:+15127793012">
+<span class="material-symbols-outlined text-[20px]">call</span>
+</a>
+</div>
+</div>
+<!-- Equipment Details Block -->
+<div class="mt-3.5 pl-1 bg-surface-container-low p-2.5 rounded-xl flex items-center justify-between gap-2">
+<div class="flex items-center gap-2 min-w-0">
+<span class="material-symbols-outlined text-tertiary text-[20px]">domain</span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider font-bold">Assigned Equipment</span>
+<span class="font-label-lg text-label-lg text-on-surface truncate font-semibold">3x Trane XR14 Central AC Systems</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant text-[18px]">chevron_right</span>
+</div>
+<!-- Service Date Indicator -->
+<div class="mt-3 pl-1 flex items-center justify-between gap-2">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-tertiary text-[18px]">event_available</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Next Service:</span>
+<span class="font-label-md text-label-md text-on-surface font-bold">Nov 28, 2024 (in 42 days)</span>
+</div>
+<span class="px-2.5 py-0.5 rounded-full font-label-sm text-label-sm bg-tertiary-fixed text-on-tertiary-fixed font-bold tracking-tight">
+          ON SCHEDULE
+        </span>
+</div>
+<!-- Badges Row -->
+<div class="mt-2.5 pl-1 flex flex-wrap items-center gap-1.5">
+<span class="px-2.5 py-1 rounded-full font-label-sm text-label-sm bg-tertiary-container text-on-tertiary font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">corporate_fare</span>
+          Commercial AMC
+        </span>
+<span class="px-2.5 py-1 rounded-full font-label-sm text-label-sm bg-secondary-container text-on-secondary-container font-medium">
+          Extended Parts Warranty
+        </span>
+</div>
+<!-- Footer Info -->
+<div class="mt-3 pl-1 pt-2.5 flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm">
+<div class="flex items-center gap-1 truncate">
+<span class="material-symbols-outlined text-[15px]">verified_user</span>
+<span class="truncate">Quarterly Compressor Checks passed</span>
+</div>
+<button class="font-label-sm text-label-sm text-primary font-bold hover:underline flex-shrink-0">
+          Client Portal
+        </button>
+</div>
+</article>
+<!-- Visual Hint & End of list anchor -->
+<div class="py-4 flex flex-col items-center justify-center text-center">
+<div class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant mb-1">
+<span class="material-symbols-outlined text-[18px]">task_alt</span>
+</div>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Showing 3 of 148 verified accounts</p>
+</div>
+</main>
+<!-- ================= STATE 2: NO SEARCH RESULTS VIEW ================= -->
+<section class="hidden flex-col items-center justify-center px-gutter py-10 text-center" id="view-no-results">
+<div class="w-20 h-20 rounded-2xl bg-surface-container-high flex items-center justify-center text-on-surface-variant mb-4 shadow-inner">
+<span class="material-symbols-outlined text-[40px]">person_search</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">No Customers Found</h3>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xs mt-1">
+      We couldn't match anything for <span class="font-bold text-on-surface" id="search-query-mirror">"X99"</span> in names, phone records, or equipment serials.
+    </p>
+<div class="mt-6 flex flex-col gap-2.5 w-full max-w-xs">
+<button class="h-12 w-full rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-2 shadow-md hover:bg-primary transition-all" onclick="clearSearchInput()">
+<span class="material-symbols-outlined text-[20px]">filter_alt_off</span>
+<span class="">Clear Search &amp; Filters</span>
+</button>
+<button class="h-12 w-full rounded-xl bg-surface-container-low text-primary font-label-lg text-label-lg flex items-center justify-center gap-2 hover:bg-surface-container transition-colors" onclick="openAddCustomerModal()">
+<span class="material-symbols-outlined text-[20px]">person_add</span>
+<span class="">Create Record for "X99"</span>
+</button>
+</div>
+</section>
+<!-- ================= STATE 3: EMPTY CUSTOMER LIST VIEW ================= -->
+<section class="hidden flex-col items-center justify-center px-gutter py-8 text-center" id="view-empty">
+<div class="w-full max-w-xs bg-surface-container-lowest rounded-2xl p-6 shadow-sm flex flex-col items-center text-center">
+<!-- Decorative Warm Visual Graphic Container -->
+<div class="relative w-28 h-28 mb-4 flex items-center justify-center">
+<div class="absolute inset-0 rounded-full bg-primary-fixed-dim/30 animate-pulse"></div>
+<div class="w-20 h-20 rounded-full bg-surface-container flex items-center justify-center text-primary-container shadow-sm">
+<span class="material-symbols-outlined text-[44px]">groups</span>
+</div>
+<div class="absolute bottom-1 right-2 w-7 h-7 rounded-full bg-tertiary text-on-tertiary flex items-center justify-center shadow-md">
+<span class="material-symbols-outlined text-[16px]">add</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">No Customers Registered Yet</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1.5 leading-snug">
+        Kickstart your service route by importing your field contacts or creating your first commercial account.
+      </p>
+<div class="mt-6 flex flex-col gap-2.5 w-full">
+<button class="h-12 w-full rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-2 shadow-md hover:bg-primary transition-all active:scale-[0.98]" onclick="simulateImportContacts()">
+<span class="material-symbols-outlined text-[20px]">contacts</span>
+<span class="">Import from Phone Contacts</span>
+</button>
+<button class="h-12 w-full rounded-xl bg-surface-container text-on-surface font-label-lg text-label-lg flex items-center justify-center gap-2 hover:bg-surface-container-high transition-colors" onclick="openAddCustomerModal()">
+<span class="material-symbols-outlined text-[20px]">edit_note</span>
+<span class="">Add Manually</span>
+</button>
+</div>
+<!-- Quick Tips Card -->
+<div class="mt-5 w-full p-3 rounded-xl bg-surface-container-low text-left flex items-start gap-2.5">
+<span class="material-symbols-outlined text-secondary text-[20px] flex-shrink-0 mt-0.5">lightbulb</span>
+<div class="min-w-0">
+<span class="font-label-sm text-label-sm font-bold text-on-surface block">Pro Tip</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant block">CSV imports with AMC warranty schedules are supported via the Servizo Web Admin.</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Floating Sticky Action Button (FAB) -->
+<div id="filter-sort-modal" class="hidden fixed inset-0 z-50 flex flex-col justify-end bg-on-background/40 backdrop-blur-sm transition-all duration-300"><div class="w-full bg-surface-container-lowest rounded-t-2xl p-4 shadow-xl flex flex-col max-h-[85vh] overflow-y-auto no-scrollbar"><div class="w-10 h-1 bg-surface-container-highest rounded-full mx-auto mb-3"></div><div class="flex items-center justify-between pb-3 border-b border-surface-container"><div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary-container text-[22px]" id="sheet-icon">tune</span><h3 class="font-headline-sm text-headline-sm text-on-surface" id="sheet-title">Filters &amp; Sort</h3></div><button onclick="closeFilterModal()" class="w-8 h-8 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container transition-colors"><span class="material-symbols-outlined text-[20px]">close</span></button></div><div id="sheet-filter-body" class="py-3 flex flex-col gap-3"><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider font-bold">Customer Tier / Type</span><div class="grid grid-cols-2 gap-2"><button class="p-2.5 rounded-xl border border-primary bg-primary-fixed/30 text-primary font-label-md text-label-md font-semibold text-left flex items-center justify-between"><span class="">AMC Contract</span><span class="material-symbols-outlined text-[18px]">check</span></button><button class="p-2.5 rounded-xl border border-surface-container bg-surface-container-lowest text-on-surface font-label-md text-label-md text-left">Warranty Active</button><button class="p-2.5 rounded-xl border border-surface-container bg-surface-container-lowest text-on-surface font-label-md text-label-md text-left">Commercial Only</button><button class="p-2.5 rounded-xl border border-surface-container bg-surface-container-lowest text-on-surface font-label-md text-label-md text-left">Residential</button></div><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider font-bold mt-1">Service Priority</span><div class="flex gap-2"><button class="px-3 py-1.5 rounded-full text-label-sm font-label-sm bg-error-container text-on-error-container font-semibold">Overdue First</button><button class="px-3 py-1.5 rounded-full text-label-sm font-label-sm bg-surface-container text-on-surface-variant">Scheduled</button><button class="px-3 py-1.5 rounded-full text-label-sm font-label-sm bg-surface-container text-on-surface-variant">All</button></div></div><div id="sheet-sort-body" class="hidden py-3 flex flex-col gap-2"><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider font-bold">Sort Records By</span><button onclick="applySort('Next Service')" class="w-full p-3 rounded-xl bg-surface-container text-on-surface font-label-md text-label-md font-semibold flex items-center justify-between text-left"><span class="">Next Service (Earliest first)</span><span class="material-symbols-outlined text-primary text-[18px]">check</span></button><button onclick="applySort('Customer Name')" class="w-full p-3 rounded-xl bg-surface-container-lowest hover:bg-surface-container-low text-on-surface font-label-md text-label-md flex items-center justify-between text-left"><span class="">Customer Name (A-Z)</span></button><button onclick="applySort('Contract Expiry')" class="w-full p-3 rounded-xl bg-surface-container-lowest hover:bg-surface-container-low text-on-surface font-label-md text-label-md flex items-center justify-between text-left"><span class="">Contract Expiry Date</span></button><button onclick="applySort('Recent Activity')" class="w-full p-3 rounded-xl bg-surface-container-lowest hover:bg-surface-container-low text-on-surface font-label-md text-label-md flex items-center justify-between text-left"><span class="">Recent Service History</span></button></div><div class="pt-3 flex items-center gap-2 border-t border-surface-container"><button onclick="closeFilterModal()" class="flex-1 h-11 rounded-xl bg-surface-container text-on-surface font-label-md text-label-md font-semibold hover:bg-surface-container-high transition-colors">Reset</button><button onclick="closeFilterModal()" class="flex-1 h-11 rounded-xl bg-primary-container text-on-primary font-label-md text-label-md font-semibold shadow-sm hover:bg-primary transition-colors">Apply</button></div></div></div><aside class="fixed bottom-20 right-4 z-40">
+<button aria-label="Add new customer" class="h-14 px-5 rounded-full bg-primary-container text-on-primary font-label-lg text-label-lg flex items-center gap-2.5 shadow-xl hover:bg-primary transition-all duration-200 active:scale-95" onclick="openAddCustomerModal()">
+<span class="material-symbols-outlined text-[24px]">person_add</span>
+<span class="tracking-wide font-bold">Add Customer</span>
+</button>
+</aside>
+<!-- Interactive Client-side Script -->
+<script>
+    function setScreenView(state) {
+      const populated = document.getElementById('view-populated');
+      const noResults = document.getElementById('view-no-results');
+      const empty = document.getElementById('view-empty');
+      const searchInput = document.getElementById('customer-search-input');
+      const clearBtn = document.getElementById('search-clear-btn');
+
+      // Update switcher pill states
+      const pills = document.querySelectorAll('.state-pill');
+      pills.forEach(p => {
+        p.classList.remove('bg-primary', 'text-on-primary');
+        p.classList.add('bg-surface-container', 'text-on-surface-variant');
+      });
+
+      populated.classList.add('hidden');
+      noResults.classList.add('hidden');
+      empty.classList.add('hidden');
+
+      if (state === 'populated') {
+        populated.classList.remove('hidden');
+        document.getElementById('btn-state-populated').classList.add('bg-primary', 'text-on-primary');
+        document.getElementById('btn-state-populated').classList.remove('bg-surface-container', 'text-on-surface-variant');
+        searchInput.value = '';
+        clearBtn.classList.add('hidden');
+      } else if (state === 'no-results') {
+        noResults.classList.remove('hidden');
+        document.getElementById('btn-state-no-results').classList.add('bg-primary', 'text-on-primary');
+        document.getElementById('btn-state-no-results').classList.remove('bg-surface-container', 'text-on-surface-variant');
+        searchInput.value = 'X99';
+        clearBtn.classList.remove('hidden');
+        document.getElementById('search-query-mirror').textContent = '"X99"';
+      } else if (state === 'empty') {
+        empty.classList.remove('hidden');
+        document.getElementById('btn-state-empty').classList.add('bg-primary', 'text-on-primary');
+        document.getElementById('btn-state-empty').classList.remove('bg-surface-container', 'text-on-surface-variant');
+        searchInput.value = '';
+        clearBtn.classList.add('hidden');
+      }
+    }
+
+    function toggleOfflineBanner() {
+      const bar = document.getElementById('offline-bar');
+      bar.classList.toggle('hidden');
+    }
+
+    function dismissOffline() {
+      const bar = document.getElementById('offline-bar');
+      bar.classList.add('hidden');
+    }
+
+    function simulateSync() {
+      const bar = document.getElementById('offline-bar');
+      bar.innerHTML = `
+        <div class="bg-tertiary-container text-on-tertiary px-3.5 py-2.5 rounded-xl shadow-sm flex items-center justify-between gap-3">
+          <div class="flex items-center gap-2">
+            <span class="material-symbols-outlined text-[20px] animate-spin">sync</span>
+            <span class="font-label-md text-label-md font-semibold">Synchronizing with Servizo Cloud...</span>
+          </div>
+          <span class="font-label-sm text-label-sm">3/3</span>
+        </div>
+      `;
+      setTimeout(() => {
+        bar.classList.add('hidden');
+      }, 1600);
+    }
+
+    function handleSearch(val) {
+      const clearBtn = document.getElementById('search-clear-btn');
+      if (val.trim().length > 0) {
+        clearBtn.classList.remove('hidden');
+        if (val.toLowerCase().includes('x99') || val.length > 8) {
+          setScreenView('no-results');
+          document.getElementById('search-query-mirror').textContent = `"${val}"`;
+        } else {
+          setScreenView('populated');
+        }
+      } else {
+        clearBtn.classList.add('hidden');
+        setScreenView('populated');
+      }
+    }
+
+    function clearSearchInput() {
+      const searchInput = document.getElementById('customer-search-input');
+      searchInput.value = '';
+      setScreenView('populated');
+      searchInput.focus();
+    }
+
+    function triggerVoiceSearch() {
+      const searchInput = document.getElementById('customer-search-input');
+      searchInput.placeholder = "Listening for customer name...";
+      setTimeout(() => {
+        searchInput.value = "Eleanor Martinez";
+        handleSearch("Eleanor Martinez");
+        searchInput.placeholder = "Search customer, phone, serial #...";
+      }, 1400);
+    }
+
+    function openAddCustomerModal() {
+      alert("Opening Servizo 'Create Customer & Service Contract' workflow");
+    }
+
+    function simulateImportContacts() {
+      alert("Accessing device contact permissions to populate client list...");
+    }
+  </script>
+</div></main><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(8,38,74,0.06)]" data-active-classes="text-primary-container font-semibold"><div class="flex justify-around items-center h-16 px-gutter"><a class="flex flex-col items-center justify-center min-w-[56px] h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="dashboard" href="#"><span class="material-symbols-outlined text-[24px]">dashboard</span><span class="font-label-sm text-label-sm mt-0.5">Dashboard</span></a><a aria-current="page" class="flex flex-col items-center justify-center min-w-[56px] h-12 transition-colors text-primary-container font-semibold" data-path="customers" href="#"><span class="material-symbols-outlined text-[24px]">group</span><span class="font-label-sm text-label-sm mt-0.5">Customers</span></a><a class="flex flex-col items-center justify-center min-w-[56px] h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="technicians" href="#"><span class="material-symbols-outlined text-[24px]">engineering</span><span class="font-label-sm text-label-sm mt-0.5">Technicians</span></a><a class="flex flex-col items-center justify-center min-w-[56px] h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="settings" href="#"><span class="material-symbols-outlined text-[24px]">settings</span><span class="font-label-sm text-label-sm mt-0.5">Settings</span></a></div></nav>
+
+</body></html>

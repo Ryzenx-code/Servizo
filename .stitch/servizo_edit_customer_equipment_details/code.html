@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "tertiary-fixed": "#6ffbbe", "on-tertiary-fixed": "#002113", "surface": "#f7f9fb", "tertiary-fixed-dim": "#4edea3", "surface-bright": "#f7f9fb", "tertiary": "#00593c", "background": "#f7f9fb", "primary": "#0046b0", "on-primary-fixed": "#001848", "surface-container-high": "#e6e8ea", "on-primary-fixed-variant": "#0040a2", "surface-variant": "#e0e3e5", "surface-container-low": "#f2f4f6", "secondary-container": "#b7d0fd", "tertiary-container": "#00744f", "on-error": "#ffffff", "primary-fixed-dim": "#b2c5ff", "outline": "#737686", "surface-tint": "#0055d3", "secondary": "#475f86", "error": "#ba1a1a", "on-secondary": "#ffffff", "on-tertiary-container": "#70fcbf", "on-background": "#191c1e", "on-primary-container": "#dbe2ff", "surface-dim": "#d8dadc", "outline-variant": "#c3c6d7", "surface-container": "#eceef0", "surface-container-lowest": "#ffffff", "on-primary": "#ffffff", "primary-fixed": "#dae2ff", "on-surface": "#191c1e", "inverse-surface": "#2d3133", "primary-container": "#0d5cde", "surface-container-highest": "#e0e3e5", "on-secondary-fixed": "#001b3c", "error-container": "#ffdad6", "inverse-primary": "#b2c5ff", "inverse-on-surface": "#eff1f3", "on-secondary-fixed-variant": "#2f476d", "on-error-container": "#93000a", "on-tertiary": "#ffffff", "on-surface-variant": "#424654", "on-secondary-container": "#40597f", "on-tertiary-fixed-variant": "#005236", "secondary-fixed-dim": "#afc7f4", "secondary-fixed": "#d5e3ff" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-sm": "0.5rem", "margin": "1rem", "space-md": "1rem", "gutter": "1rem", "space-xl": "2rem", "space-xs": "0.25rem", "space-lg": "1.5rem" }, "fontFamily": { "body-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"] }, "fontSize": { "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "label-sm": ["10px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" }], "headline-sm": ["18px", { "lineHeight": "24px", "fontWeight": "700" }], "headline-md": ["22px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "headline-lg-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "800" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "500" }] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased flex flex-col min-h-screen"><header class="fixed top-0 inset-x-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(8,38,74,0.04)] pt-safe"><div class="h-16 px-space-md flex items-center justify-between"><div class="flex items-center gap-space-xs"><button aria-label="Go back" class="w-12 h-12 flex items-center justify-center rounded-full text-on-surface hover:bg-surface-container-high transition-colors" onclick="history.back()"><span class="material-symbols-outlined text-[24px]">arrow_back</span></button><h1 class="font-headline-sm text-headline-sm text-on-surface font-bold tracking-tight truncate">Customer Profile</h1></div><div class="flex items-center gap-space-xs"><button aria-label="Share Customer" class="w-12 h-12 flex items-center justify-center rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors"><span class="material-symbols-outlined text-[22px]">share</span></button><button aria-label="More Options" class="w-12 h-12 flex items-center justify-center rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors"><span class="material-symbols-outlined text-[22px]">more_vert</span></button><div class="pl-space-xs flex items-center"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1UIsGO6kvVVP1HQV8Vd7QlQH5KVY6_FLLfU1yGILxIC-sK4Y9JU0X4mT6grX9TXjMgok_Bc4k_MVy9deUIRqbtqZqrYkgYvmt3Oq__QSR3wJaboZGoGbHqaoXT9NfqDCrGDtoYb5iM_bE8AI7--B6gzMvC35_FWTbbDZU-5d1_olWx3JPoxCKAmAcFwAd01qRImhKM_ZBdWFJ2hBknhP3MoKEGPd_7pnVeXOtudD5gTkGmGFq_rUCxSh9XHCjmFJQNeFL7RlqW0Evo"/></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-24 bg-surface"><div class="flex flex-col w-full pb-10">
+<!-- Top Action Sub-bar / Save Sticky Header Notice -->
+<section class="px-space-md py-space-sm bg-surface-container-low shadow-sm flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-xs min-w-0">
+<button aria-label="Cancel edits" class="w-10 h-10 flex items-center justify-center rounded-full bg-surface-container-high text-on-surface hover:bg-surface-variant transition-colors" onclick="history.back()" type="button">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+<div class="truncate">
+<p class="font-label-sm text-label-sm text-secondary uppercase tracking-wider font-bold">Edit Mode</p>
+<p class="font-label-lg text-label-lg text-on-surface font-bold truncate">Rajesh K. Sharma</p>
+</div>
+</div>
+<button class="h-10 px-space-md flex items-center gap-space-xs rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg shadow-sm hover:bg-primary active:scale-[0.98] transition-all flex-shrink-0" id="saveBtn" type="button">
+<span class="material-symbols-outlined text-[18px]">check</span>
+<span>Save Changes</span>
+</button>
+</section>
+<!-- Notification Toast Simulation -->
+<div class="hidden fixed top-20 right-4 left-4 z-50 p-space-sm bg-inverse-surface text-inverse-on-surface rounded-xl shadow-xl flex items-center gap-space-sm transition-all transform ease-out duration-300" id="toastMessage">
+<span class="material-symbols-outlined text-tertiary-fixed text-[20px]">check_circle</span>
+<span class="font-body-md text-body-md flex-1">Customer record updated successfully.</span>
+</div>
+<div class="px-space-md flex flex-col gap-space-lg mt-space-md">
+<!-- Section 1: Customer Details -->
+<section class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="w-8 h-8 rounded-lg bg-primary-fixed text-on-primary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">person</span>
+</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Customer Details</h2>
+</div>
+<span class="px-2.5 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-bold flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span> Active Client
+        </span>
+</div>
+<!-- Customer Name Input -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface-variant font-medium" for="custName">Customer Full Name <span class="text-error">*</span></label>
+<div class="relative flex items-center">
+<input class="w-full h-14 pl-space-md pr-12 rounded-xl bg-surface-container-low text-on-surface font-body-lg text-body-lg focus:bg-surface-container-lowest focus:outline-none focus:ring-0 shadow-sm transition-all" id="custName" type="text" value="Rajesh K. Sharma"/>
+<button aria-label="Clear name" class="absolute right-3 w-8 h-8 flex items-center justify-center rounded-full text-outline hover:text-on-surface transition-colors" onclick="document.getElementById('custName').value = ''; document.getElementById('custName').focus();" type="button">
+<span class="material-symbols-outlined text-[18px]">cancel</span>
+</button>
+</div>
+</div>
+<!-- Phone Number with Country Code -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface-variant font-medium" for="primaryPhone">Primary Contact Number <span class="text-error">*</span></label>
+<div class="flex gap-space-xs">
+<div class="h-14 px-space-md rounded-xl bg-surface-container-low flex items-center gap-1 flex-shrink-0 text-on-surface font-label-lg text-label-lg">
+<span>🇮🇳</span>
+<span>+91</span>
+</div>
+<div class="relative flex-1 flex items-center">
+<input class="w-full h-14 pl-space-md pr-24 rounded-xl bg-surface-container-low text-on-surface font-body-lg text-body-lg focus:bg-surface-container-lowest focus:outline-none focus:ring-0 shadow-sm transition-all" id="primaryPhone" type="tel" value="98201 44592"/>
+<div class="absolute right-3 flex items-center gap-1 px-2 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">verified</span>
+<span>Verified</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Alternate Phone / Emergency -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface-variant font-medium" for="altPhone">Alternate Contact / Family</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3 text-outline text-[20px]">contact_phone</span>
+<input class="w-full h-14 pl-11 pr-space-md rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none shadow-sm transition-all" id="altPhone" placeholder="Emergency contact or caretaker" type="tel" value="98710 32188"/>
+</div>
+</div>
+<!-- Address with Auto-Detect -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<label class="font-label-md text-label-md text-on-surface-variant font-medium" for="installAddress">Installation Address <span class="text-error">*</span></label>
+<button class="flex items-center gap-1 px-2.5 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm hover:bg-secondary-fixed-dim transition-colors" type="button">
+<span class="material-symbols-outlined text-[14px]">my_location</span>
+<span>Auto-Detect</span>
+</button>
+</div>
+<textarea class="w-full p-space-md rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none shadow-sm transition-all" id="installAddress" rows="3">Flat 402, Tower B, Palm Meadows, Marathahalli - Sarjapur Road</textarea>
+</div>
+<!-- Landmark input -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface-variant font-medium" for="landmark">Landmark / Gate Instructions</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3 text-outline text-[20px]">pin_drop</span>
+<input class="w-full h-14 pl-11 pr-space-md rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none shadow-sm transition-all" id="landmark" type="text" value="Opposite Green Glen Supermarket, Gate 2"/>
+</div>
+</div>
+</section>
+<!-- Section 2: Equipment & Photo Management -->
+<section class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="w-8 h-8 rounded-lg bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">water_damage</span>
+</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Equipment &amp; Media</h2>
+</div>
+<span class="font-label-sm text-label-sm text-outline uppercase font-bold">RO Water Purifier</span>
+</div>
+<!-- Product Image and Actions -->
+<div class="flex flex-col gap-space-sm p-space-sm rounded-xl bg-surface-container-low" id="equipmentMediaContainer">
+<div class="relative w-full h-44 rounded-lg overflow-hidden bg-surface-container-high flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="Modern Kent Grand Plus RO Water Purifier installed on a bright kitchen tiled wall with digital display, crisp chrome faucet, clean studio lighting with navy and cyan reflection." id="equipmentPhoto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDjw_h4eK9uwLzp3wn7yoXpKuUUYZI1UAn7QEhz33VC0iTKuAHwII-VrSIpiJgXGCARc9ox34ZNkVEN1zHSS83bppcVTD6JBTZaAePCQDZYKjIufGk_dAzOjDbtaxROTKqBxI9o3GoouxO0vkXOcvjIA1WDi6qYCVtmbU7CluhioZUVaGcq3RALf5op9ueENKFJ4RaWcc56On30biskIjE9mUPWM26iDBe3qLr2dRdyKe6nI2TIf5Uc5g"/>
+<div class="absolute bottom-2 left-2 px-2.5 py-1 rounded-md bg-inverse-surface/80 text-inverse-on-surface font-label-sm text-label-sm backdrop-blur-sm">
+            Installed Nov 2023
+          </div>
+</div>
+<!-- Media Action Buttons -->
+<div class="grid grid-cols-2 gap-space-sm">
+<button class="h-12 px-space-sm rounded-xl bg-primary-container text-on-primary font-label-md text-label-md flex items-center justify-center gap-1.5 hover:bg-primary active:scale-[0.98] transition-all" id="replacePhotoBtn" type="button">
+<span class="material-symbols-outlined text-[18px]">add_a_photo</span>
+<span>Replace Photo</span>
+</button>
+<button class="h-12 px-space-sm rounded-xl bg-error-container text-on-error-container font-label-md text-label-md flex items-center justify-center gap-1.5 hover:opacity-90 active:scale-[0.98] transition-all" id="removePhotoBtn" type="button">
+<span class="material-symbols-outlined text-[18px]">delete</span>
+<span>Remove Photo</span>
+</button>
+</div>
+</div>
+<!-- Equipment Details Fields -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface-variant font-medium" for="productModel">Model / Equipment Specification</label>
+<input class="w-full h-14 px-space-md rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none shadow-sm transition-all" id="productModel" type="text" value="Kent Grand Plus RO+UV+UF 9L (White)"/>
+</div>
+<!-- TDS Values Grid -->
+<div class="grid grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface-variant font-medium" for="rawTds">Raw Water TDS</label>
+<div class="relative flex items-center">
+<input class="w-full h-14 pl-space-md pr-14 rounded-xl bg-surface-container-low text-on-surface font-headline-sm text-headline-sm focus:bg-surface-container-lowest focus:outline-none shadow-sm transition-all" id="rawTds" type="number" value="680"/>
+<span class="absolute right-3 font-label-sm text-label-sm text-outline font-bold">ppm</span>
+</div>
+<span class="font-label-sm text-label-sm text-error">High Hardness</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface-variant font-medium" for="purifiedTds">Purified TDS</label>
+<div class="relative flex items-center">
+<input class="w-full h-14 pl-space-md pr-14 rounded-xl bg-surface-container-low text-tertiary-container font-headline-sm text-headline-sm focus:bg-surface-container-lowest focus:outline-none shadow-sm transition-all" id="purifiedTds" type="number" value="42"/>
+<span class="absolute right-3 font-label-sm text-label-sm text-outline font-bold">ppm</span>
+</div>
+<span class="font-label-sm text-label-sm text-tertiary font-medium">Optimal Balance</span>
+</div>
+</div>
+<!-- Price & Serial -->
+<div class="grid grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface-variant font-medium" for="purchasedAmt">Purchased Amount</label>
+<div class="relative flex items-center">
+<span class="absolute left-3 text-on-surface font-label-lg text-label-lg font-bold">₹</span>
+<input class="w-full h-14 pl-8 pr-space-md rounded-xl bg-surface-container-low text-on-surface font-body-lg text-body-lg font-bold focus:bg-surface-container-lowest focus:outline-none shadow-sm transition-all" id="purchasedAmt" type="text" value="19,499"/>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface-variant font-medium" for="serialNumber">Machine Serial No.</label>
+<input class="w-full h-14 px-space-md rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md uppercase tracking-wider font-semibold focus:bg-surface-container-lowest focus:outline-none shadow-sm transition-all" id="serialNumber" type="text" value="KT-2023-B8821X"/>
+</div>
+</div>
+</section>
+<!-- Section 3: Warranty & AMC Configuration -->
+<section class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="w-8 h-8 rounded-lg bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">verified_user</span>
+</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Coverage &amp; Contracts</h2>
+</div>
+<!-- Warranty Toggle Card -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div>
+<p class="font-label-lg text-label-lg text-on-surface font-bold">Manufacturer Warranty</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">OEM 1-Year Comprehensive Guard</p>
+</div>
+<!-- Toggle -->
+<label class="relative inline-flex items-center cursor-pointer">
+<input checked="" class="sr-only peer" id="warrantyToggle" type="checkbox"/>
+<div class="w-12 h-7 bg-surface-variant peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[3px] after:bg-white after:rounded-full after:h-6 after:w-6 after:transition-all peer-checked:bg-primary"></div>
+</label>
+</div>
+<!-- Warranty Configuration Content -->
+<div class="flex flex-col gap-space-sm pt-space-xs" id="warrantyFields">
+<div class="grid grid-cols-2 gap-space-sm">
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Warranty Start</span>
+<input class="h-12 px-space-sm rounded-lg bg-surface-container-lowest text-on-surface font-body-sm text-body-sm focus:outline-none shadow-sm" type="date" value="2023-11-15"/>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Warranty Expiry</span>
+<input class="h-12 px-space-sm rounded-lg bg-surface-container-lowest text-on-surface font-body-sm text-body-sm focus:outline-none shadow-sm" type="date" value="2024-11-14"/>
+</div>
+</div>
+</div>
+</div>
+<!-- AMC Contract Toggle Card -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div>
+<p class="font-label-lg text-label-lg text-on-surface font-bold">Annual Maintenance Contract (AMC)</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Includes 3 free filter changes &amp; labor</p>
+</div>
+<!-- Toggle -->
+<label class="relative inline-flex items-center cursor-pointer">
+<input checked="" class="sr-only peer" id="amcToggle" type="checkbox"/>
+<div class="w-12 h-7 bg-surface-variant peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[3px] after:bg-white after:rounded-full after:h-6 after:w-6 after:transition-all peer-checked:bg-primary"></div>
+</label>
+</div>
+<!-- AMC Fields (Expanded) -->
+<div class="flex flex-col gap-space-md pt-space-xs" id="amcFields">
+<!-- Tier selector chips -->
+<div class="flex flex-col gap-1.5">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Active AMC Tier</span>
+<div class="grid grid-cols-3 gap-space-xs" id="amcTierGroup">
+<button class="h-10 rounded-xl bg-surface-container-lowest text-on-surface font-label-md text-label-md flex items-center justify-center font-semibold hover:bg-surface-container-high transition-colors" data-tier="silver" type="button">Silver</button>
+<button class="h-10 rounded-xl bg-primary text-on-primary font-label-md text-label-md flex items-center justify-center font-bold shadow-sm" data-tier="gold" type="button">Gold</button>
+<button class="h-10 rounded-xl bg-surface-container-lowest text-on-surface font-label-md text-label-md flex items-center justify-center font-semibold hover:bg-surface-container-high transition-colors" data-tier="platinum" type="button">Platinum</button>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-space-sm">
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Contract Start</span>
+<input class="h-12 px-space-sm rounded-lg bg-surface-container-lowest text-on-surface font-body-sm text-body-sm focus:outline-none shadow-sm" type="date" value="2024-11-15"/>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Contract End</span>
+<input class="h-12 px-space-sm rounded-lg bg-surface-container-lowest text-on-surface font-body-sm text-body-sm focus:outline-none shadow-sm" type="date" value="2025-11-14"/>
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Total AMC Fee Paid</span>
+<div class="relative flex items-center">
+<span class="absolute left-3 text-on-surface font-label-md text-label-md font-bold">₹</span>
+<input class="w-full h-12 pl-8 pr-space-sm rounded-lg bg-surface-container-lowest text-on-surface font-body-md text-body-md font-semibold focus:outline-none shadow-sm" type="text" value="3,499"/>
+</div>
+</div>
+</div>
+<!-- Disabled AMC placeholder text (toggled via JS) -->
+<div class="hidden py-space-sm text-center" id="amcDisabledNote">
+<p class="font-body-sm text-body-sm text-outline italic">No AMC policy currently linked to this customer.</p>
+</div>
+</div>
+</section>
+<!-- Section 4: Service Schedule Settings -->
+<section class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="w-8 h-8 rounded-lg bg-secondary-container text-on-secondary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">calendar_month</span>
+</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Service Schedule Cadence</h2>
+</div>
+<!-- Frequency selection -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface-variant font-medium">Routine Maintenance Frequency</label>
+<div class="flex flex-wrap gap-2" id="freqChips">
+<button class="px-3.5 py-2 rounded-xl bg-surface-container-low text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors" type="button">Monthly</button>
+<button class="px-3.5 py-2 rounded-xl bg-surface-container-low text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors" type="button">Bi-Monthly</button>
+<button class="px-3.5 py-2 rounded-xl bg-primary text-on-primary font-label-md text-label-md shadow-sm font-bold" type="button">Quarterly (Every 3 Mo)</button>
+<button class="px-3.5 py-2 rounded-xl bg-surface-container-low text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors" type="button">Half-Yearly</button>
+<button class="px-3.5 py-2 rounded-xl bg-surface-container-low text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors" type="button">Custom</button>
+</div>
+</div>
+<!-- Time slot dropdown -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface-variant font-medium" for="timeSlot">Customer Preferred Visiting Hours</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3 text-outline text-[20px]">schedule</span>
+<select class="w-full h-14 pl-11 pr-10 rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none shadow-sm appearance-none" id="timeSlot">
+<option selected="" value="morning">Morning (9:00 AM – 12:00 PM)</option>
+<option value="afternoon">Afternoon (1:00 PM – 4:00 PM)</option>
+<option value="evening">Evening (4:00 PM – 7:30 PM)</option>
+<option value="anytime">Anytime during operating hours</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 text-outline pointer-events-none text-[20px]">arrow_drop_down</span>
+</div>
+</div>
+</section>
+<!-- Section 5: Voice Note Attachment -->
+<section class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="w-8 h-8 rounded-lg bg-tertiary-fixed-dim text-on-tertiary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">mic</span>
+</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Voice Note &amp; Field Memo</h2>
+</div>
+<span class="font-label-sm text-label-sm text-tertiary font-bold">1 Recorded Clip</span>
+</div>
+<!-- Existing Audio Clip Player -->
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col gap-space-sm" id="voiceNoteBox">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<button class="w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center shadow-sm hover:opacity-90 transition-opacity" id="playAudioBtn" type="button">
+<span class="material-symbols-outlined text-[20px]" id="playIcon">play_arrow</span>
+</button>
+<div>
+<p class="font-label-md text-label-md text-on-surface font-semibold">Special pump vibration note</p>
+<p class="font-body-sm text-body-sm text-outline">0:28 • Recorded by Field Tech (Vikram)</p>
+</div>
+</div>
+<button aria-label="Delete voice memo" class="w-9 h-9 rounded-full text-error hover:bg-error-container/40 flex items-center justify-center transition-colors" id="deleteAudioBtn" type="button">
+<span class="material-symbols-outlined text-[20px]">delete_outline</span>
+</button>
+</div>
+<!-- Audio Waveform Graphic Mock -->
+<div class="h-8 px-2 flex items-center gap-1 bg-surface-container-lowest rounded-lg">
+<span class="h-2 w-1 rounded-full bg-primary"></span>
+<span class="h-4 w-1 rounded-full bg-primary"></span>
+<span class="h-6 w-1 rounded-full bg-primary"></span>
+<span class="h-3 w-1 rounded-full bg-primary"></span>
+<span class="h-5 w-1 rounded-full bg-primary-fixed-dim"></span>
+<span class="h-7 w-1 rounded-full bg-primary-fixed-dim"></span>
+<span class="h-4 w-1 rounded-full bg-primary-fixed-dim"></span>
+<span class="h-2 w-1 rounded-full bg-primary-fixed-dim"></span>
+<span class="h-5 w-1 rounded-full bg-primary-fixed-dim"></span>
+<span class="h-6 w-1 rounded-full bg-primary-fixed-dim"></span>
+<span class="h-3 w-1 rounded-full bg-primary-fixed-dim"></span>
+<span class="h-2 w-1 rounded-full bg-primary-fixed-dim"></span>
+<span class="h-4 w-1 rounded-full bg-primary-fixed-dim"></span>
+<span class="h-6 w-1 rounded-full bg-primary-fixed-dim"></span>
+<span class="h-3 w-1 rounded-full bg-primary-fixed-dim"></span>
+<span class="h-1.5 w-1 rounded-full bg-primary-fixed-dim"></span>
+<span class="flex-1 text-right font-label-sm text-label-sm text-outline pr-1">0:28</span>
+</div>
+</div>
+<!-- Action: Record New -->
+<button class="h-12 w-full rounded-xl bg-surface-container-high text-on-surface font-label-md text-label-md flex items-center justify-center gap-2 hover:bg-surface-variant transition-colors" id="recordNewBtn" type="button">
+<span class="material-symbols-outlined text-[18px] text-error">fiber_manual_record</span>
+<span>Record Overwrite Memo</span>
+</button>
+</section>
+<!-- Section 6: Danger Zone -->
+<section class="bg-error-container/20 rounded-xl p-space-md shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="w-8 h-8 rounded-lg bg-error-container text-on-error-container flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">warning</span>
+</span>
+<h2 class="font-headline-sm text-headline-sm text-error">Danger Zone</h2>
+</div>
+<div class="flex flex-col gap-1">
+<p class="font-body-md text-body-md text-on-surface font-semibold">Delete Rajesh K. Sharma's Record</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Permanently removes customer details, history logs, serial records, and AMC invoices from Servizo cloud database. This action is irreversible.</p>
+</div>
+<button class="h-12 w-full rounded-xl bg-surface-container-lowest text-error font-label-lg text-label-lg font-bold flex items-center justify-center gap-2 shadow-sm hover:bg-error-container hover:text-on-error-container active:scale-[0.98] transition-all" id="deleteCustomerBtn" type="button">
+<span class="material-symbols-outlined text-[20px]">delete_forever</span>
+<span>Delete Customer Record</span>
+</button>
+</section>
+</div>
+</div>
+<script>
+  // Simple interactive handlers for delightful micro-interactions
+  document.addEventListener('DOMContentLoaded', () => {
+    // 1. Toast / Save handler
+    const saveBtn = document.getElementById('saveBtn');
+    const toast = document.getElementById('toastMessage');
+    if (saveBtn && toast) {
+      saveBtn.addEventListener('click', () => {
+        toast.classList.remove('hidden');
+        setTimeout(() => {
+          toast.classList.add('hidden');
+        }, 3000);
+      });
+    }
+
+    // 2. AMC Toggle behavior
+    const amcToggle = document.getElementById('amcToggle');
+    const amcFields = document.getElementById('amcFields');
+    const amcDisabledNote = document.getElementById('amcDisabledNote');
+    if (amcToggle && amcFields && amcDisabledNote) {
+      amcToggle.addEventListener('change', (e) => {
+        if (e.target.checked) {
+          amcFields.classList.remove('hidden');
+          amcDisabledNote.classList.add('hidden');
+        } else {
+          amcFields.classList.add('hidden');
+          amcDisabledNote.classList.remove('hidden');
+        }
+      });
+    }
+
+    // 3. Warranty Toggle behavior
+    const warrantyToggle = document.getElementById('warrantyToggle');
+    const warrantyFields = document.getElementById('warrantyFields');
+    if (warrantyToggle && warrantyFields) {
+      warrantyToggle.addEventListener('change', (e) => {
+        warrantyFields.style.opacity = e.target.checked ? '1' : '0.4';
+        warrantyFields.style.pointerEvents = e.target.checked ? 'auto' : 'none';
+      });
+    }
+
+    // 4. AMC Tier button selection
+    const tierButtons = document.querySelectorAll('#amcTierGroup button');
+    tierButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        tierButtons.forEach(b => {
+          b.className = 'h-10 rounded-xl bg-surface-container-lowest text-on-surface font-label-md text-label-md flex items-center justify-center font-semibold hover:bg-surface-container-high transition-colors';
+        });
+        btn.className = 'h-10 rounded-xl bg-primary text-on-primary font-label-md text-label-md flex items-center justify-center font-bold shadow-sm';
+      });
+    });
+
+    // 5. Frequency chip selection
+    const freqChips = document.querySelectorAll('#freqChips button');
+    freqChips.forEach(chip => {
+      chip.addEventListener('click', () => {
+        freqChips.forEach(c => {
+          c.className = 'px-3.5 py-2 rounded-xl bg-surface-container-low text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors';
+        });
+        chip.className = 'px-3.5 py-2 rounded-xl bg-primary text-on-primary font-label-md text-label-md shadow-sm font-bold';
+      });
+    });
+
+    // 6. Voice Clip play/pause toggle simulation
+    const playAudioBtn = document.getElementById('playAudioBtn');
+    const playIcon = document.getElementById('playIcon');
+    let isPlaying = false;
+    if (playAudioBtn && playIcon) {
+      playAudioBtn.addEventListener('click', () => {
+        isPlaying = !isPlaying;
+        playIcon.textContent = isPlaying ? 'pause' : 'play_arrow';
+      });
+    }
+
+    // 7. Remove equipment photo
+    const removePhotoBtn = document.getElementById('removePhotoBtn');
+    const equipmentPhoto = document.getElementById('equipmentPhoto');
+    if (removePhotoBtn && equipmentPhoto) {
+      removePhotoBtn.addEventListener('click', () => {
+        equipmentPhoto.parentElement.innerHTML = '<div class="w-full h-full flex flex-col items-center justify-center gap-1 text-outline"><span class="material-symbols-outlined text-[32px]">no_photography</span><span class="font-label-sm text-label-sm">Photo Removed</span></div>';
+        removePhotoBtn.disabled = true;
+        removePhotoBtn.classList.add('opacity-50');
+      });
+    }
+
+    // 8. Delete Customer Confirmation prompt
+    const deleteCustomerBtn = document.getElementById('deleteCustomerBtn');
+    if (deleteCustomerBtn) {
+      deleteCustomerBtn.addEventListener('click', () => {
+        const confirmed = window.confirm('Are you sure you want to permanently delete Rajesh K. Sharma and all attached AMC records?');
+        if (confirmed) {
+          alert('Customer record queued for permanent deletion.');
+          history.back();
+        }
+      });
+    }
+  });
+</script></main><aside class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface-container-lowest/95 backdrop-blur-xl shadow-[0_-2px_12px_rgba(8,38,74,0.06)]"><div class="h-20 px-space-md flex items-center gap-space-md justify-between"><a aria-label="Quick Call Customer" class="h-12 w-12 flex-shrink-0 flex items-center justify-center rounded-xl bg-secondary-fixed text-on-secondary-fixed hover:bg-secondary-fixed-dim transition-colors shadow-[0_1px_3px_0_rgba(8,38,74,0.04)]" href="tel:"><span class="material-symbols-outlined text-[22px]">call</span></a><button class="flex-1 h-12 px-space-lg flex items-center justify-center gap-space-sm rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-primary transition-colors shadow-[0_4px_6px_-1px_rgba(13,92,222,0.2)] active:scale-[0.99]"><span class="material-symbols-outlined text-[20px]">add_task</span><span>Add Service Record</span></button></div></aside></body></html>

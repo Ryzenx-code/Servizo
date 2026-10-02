@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Servizo - Master Interactive Screen Prototype</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+    }
+    /* Hide scrollbars for smooth mobile feeling */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    /* Custom pulse & micro animations */
+    @keyframes subtlePulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.05); opacity: 0.85; }
+    }
+    .animate-subtle-pulse {
+      animation: subtlePulse 2.4s infinite ease-in-out;
+    }
+    .touch-press:active {
+      transform: scale(0.97);
+      transition: transform 0.1s ease;
+    }
+  </style>
+</head>
+<body class="bg-slate-900 text-slate-800 antialiased min-h-screen flex flex-col items-center justify-start py-6 px-3">
+
+  <!-- Desktop Prototype Header Bar -->
+  <header class="w-full max-w-5xl mb-4 flex flex-wrap items-center justify-between gap-4 bg-slate-800/90 backdrop-blur border border-slate-700/80 rounded-2xl p-4 shadow-xl text-white">
+    <div class="flex items-center gap-3">
+      <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxs-TACF8woUPxRqeBnzYcdgahg_NQpf9jrtyofHz4JTMG8Up3jwsNf7NXvkYzkOtds6jm4hsOeLFujn3ciwi56u4XY7GEPBRR-SrVFKDhLqzL-1dRbsfqG-Ylg8psQTbc-7SjZ5a_O8V71lJZGjzzPNGFop7NEYY3VXJWiBMdapR_npZJxwgo_cUWTfHyLORKPoqhliF7hEQx3MMbtnD6dmN7Sdh5_qKRoKbqBJhyDXiyAkrWsAlLPddHwcAicEiHoFk" alt="Servizo Logo" class="w-10 h-10 rounded-xl object-contain bg-white p-0.5 shadow-md">
+      <div>
+        <div class="flex items-center gap-2">
+          <h1 class="text-base font-bold tracking-tight text-white">Servizo Master Prototype</h1>
+          <span class="px-2 py-0.5 text-[10px] font-semibold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 rounded-full">Compose Ready</span>
+        </div>
+        <p class="text-xs text-slate-400">18 Audited Android Surfaces • Safe-Area Compliant • Zero Button Clashing</p>
+      </div>
+    </div>
+
+    <!-- Quick Screen Selector Pills -->
+    <div class="flex items-center gap-1.5 overflow-x-auto max-w-full pb-1 no-scrollbar text-xs">
+      <button onclick="switchScreen('dashboard')" class="nav-pill px-3 py-1.5 rounded-lg bg-blue-600 text-white font-medium shadow-sm transition hover:bg-blue-500" data-target="dashboard">Dashboard</button>
+      <button onclick="switchScreen('reminders')" class="nav-pill px-3 py-1.5 rounded-lg bg-slate-700 text-slate-200 font-medium hover:bg-slate-600 transition" data-target="reminders">Reminders (AMC)</button>
+      <button onclick="switchScreen('customers')" class="nav-pill px-3 py-1.5 rounded-lg bg-slate-700 text-slate-200 font-medium hover:bg-slate-600 transition" data-target="customers">Customers</button>
+      <button onclick="switchScreen('customer_profile')" class="nav-pill px-3 py-1.5 rounded-lg bg-slate-700 text-slate-200 font-medium hover:bg-slate-600 transition" data-target="customer_profile">Profile</button>
+      <button onclick="switchScreen('service_records')" class="nav-pill px-3 py-1.5 rounded-lg bg-slate-700 text-slate-200 font-medium hover:bg-slate-600 transition" data-target="service_records">Service Records</button>
+      <button onclick="switchScreen('add_record')" class="nav-pill px-3 py-1.5 rounded-lg bg-slate-700 text-slate-200 font-medium hover:bg-slate-600 transition" data-target="add_record">Add Record</button>
+      <button onclick="switchScreen('technicians')" class="nav-pill px-3 py-1.5 rounded-lg bg-slate-700 text-slate-200 font-medium hover:bg-slate-600 transition" data-target="technicians">Technicians</button>
+      <button onclick="switchScreen('settings')" class="nav-pill px-3 py-1.5 rounded-lg bg-slate-700 text-slate-200 font-medium hover:bg-slate-600 transition" data-target="settings">Settings & Backup</button>
+    </div>
+  </header>
+
+  <!-- Physical Mobile Device Frame (Android 412x915 Simulation) -->
+  <main class="relative w-full max-w-[412px] h-[860px] bg-white rounded-[40px] shadow-2xl overflow-hidden border-[8px] border-slate-700 flex flex-col">
+
+    <!-- Android Status Bar with Camera Cutout -->
+    <div class="h-10 w-full bg-white flex items-center justify-between px-6 pt-1 select-none z-30 shrink-0">
+      <span class="text-xs font-bold text-slate-800 tracking-tight" id="status-time">09:41</span>
+      <!-- Camera Punch hole -->
+      <div class="w-3.5 h-3.5 bg-slate-900 rounded-full mx-auto -mr-2"></div>
+      <div class="flex items-center gap-1.5 text-slate-700">
+        <!-- 5G icon -->
+        <span class="text-[10px] font-bold tracking-tighter">5G</span>
+        <!-- Signal icon -->
+        <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M12 3c-4.97 0-9 4.03-9 9 0 2.12.74 4.07 1.97 5.61L12 22l7.03-4.39C20.26 16.07 21 14.12 21 12c0-4.97-4.03-9-9-9z"/></svg>
+        <!-- Battery Icon -->
+        <div class="w-5 h-2.5 border border-slate-700 rounded-sm p-0.5 flex items-center">
+          <div class="w-full h-full bg-slate-800 rounded-2xs"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Offline Alert Banner (Stateful, Non-blocking) -->
+    <div id="offline-toast" class="hidden bg-amber-500 text-white text-[11px] font-semibold px-4 py-1.5 flex items-center justify-between z-30 transition-all duration-300">
+      <div class="flex items-center gap-1.5">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636a9 9 0 010 12.728m0 0l-2.829-2.829m2.829 2.829L21 21M15.536 8.464a5 5 0 010 7.072m0 0l-2.829-2.829m-4.243 4.243a9 9 0 01-12.728 0m12.728 0l-2.829-2.829M3 3l18 18"/></svg>
+        <span>Offline Mode • Changes sync when reconnected</span>
+      </div>
+      <button onclick="toggleOfflineNotice()" class="underline font-bold text-[10px]">Dismiss</button>
+    </div>
+
+    <!-- Active Screen Viewport (Scrollable Container) -->
+    <div id="viewport-content" class="flex-1 overflow-y-auto bg-slate-50 no-scrollbar relative flex flex-col">
+
+      <!-- ================= 1. DASHBOARD SCREEN ================= -->
+      <section id="view-dashboard" class="screen-view p-4 pb-24 flex flex-col gap-4">
+        <!-- Top App Bar with Branding -->
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-3">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjoBLIoo9lGHNpJat2N9BDvOeT1SMurYy9kJNyqEYKJjW3JoBLtX4Kn_mRZXwbcTRoflxl18yhy6AtTxfYxgBn9-oqD9jmhwTUt0dvA0MnuX4EntTrbhwMpVY17gmacGbGx9IljM7BIhEAoaVQV7nF-KJdW6TzL2iYRMxXeTW52r-j92o1ynlZZcr9MiJKbYPq78oUIcqdqUs48jlcTmlmBikvGptMYCCPftVS_Mo2x-VW9vNDdPZldOGhGtsfzTBQT9w" alt="Servizo" class="w-10 h-10 rounded-xl object-contain bg-white p-0.5 border border-slate-100 shadow-sm">
+            <div>
+              <p class="text-[11px] font-semibold text-slate-500 uppercase tracking-wider">AquaPure Solutions</p>
+              <h2 class="text-lg font-bold text-slate-900 leading-tight">Namaste, Rajesh! 👋</h2>
+            </div>
+          </div>
+          <div class="flex items-center gap-2">
+            <button onclick="toggleOfflineNotice()" title="Toggle Offline Demo" class="p-2 rounded-xl bg-white border border-slate-200 text-slate-600 touch-press hover:bg-slate-100">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+            </button>
+            <button onclick="switchScreen('settings')" class="p-2 rounded-xl bg-white border border-slate-200 text-slate-600 touch-press hover:bg-slate-100 relative">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/></svg>
+              <span class="absolute 1 top-1 right-1 w-2 h-2 bg-red-500 rounded-full"></span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Metric KPI Cards Row -->
+        <div class="grid grid-cols-3 gap-2.5">
+          <div class="bg-blue-600 text-white rounded-2xl p-3 shadow-md flex flex-col justify-between">
+            <span class="text-[10px] font-semibold text-blue-100 uppercase tracking-wider">Today's Due</span>
+            <div class="mt-1">
+              <span class="text-2xl font-extrabold tracking-tight">8</span>
+              <span class="text-[11px] block text-blue-200">5 pending</span>
+            </div>
+          </div>
+          <div class="bg-emerald-600 text-white rounded-2xl p-3 shadow-md flex flex-col justify-between">
+            <span class="text-[10px] font-semibold text-emerald-100 uppercase tracking-wider">This Month</span>
+            <div class="mt-1">
+              <span class="text-2xl font-extrabold tracking-tight">₹48k</span>
+              <span class="text-[11px] block text-emerald-200">+18% growth</span>
+            </div>
+          </div>
+          <div class="bg-amber-500 text-white rounded-2xl p-3 shadow-md flex flex-col justify-between">
+            <span class="text-[10px] font-semibold text-amber-100 uppercase tracking-wider">AMC Expired</span>
+            <div class="mt-1">
+              <span class="text-2xl font-extrabold tracking-tight">14</span>
+              <span class="text-[11px] block text-amber-100">Send reminder</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Action Bar -->
+        <div class="flex items-center gap-2">
+          <button onclick="switchScreen('add_record')" class="flex-1 bg-white border border-blue-200 rounded-xl py-2.5 px-3 flex items-center justify-center gap-2 text-blue-700 font-semibold text-xs shadow-sm touch-press hover:bg-blue-50">
+            <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/></svg>
+            Add Service
+          </button>
+          <button onclick="switchScreen('customers')" class="flex-1 bg-white border border-slate-200 rounded-xl py-2.5 px-3 flex items-center justify-center gap-2 text-slate-700 font-semibold text-xs shadow-sm touch-press hover:bg-slate-100">
+            <svg class="w-4 h-4 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z"/></svg>
+            New Client
+          </button>
+          <button onclick="openVoiceModal()" class="bg-emerald-600 text-white rounded-xl py-2.5 px-3 flex items-center justify-center gap-1.5 font-semibold text-xs shadow-md touch-press hover:bg-emerald-500">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"/></svg>
+            Voice Note
+          </button>
+        </div>
+
+        <!-- Urgent Today Service Visits -->
+        <div class="flex flex-col gap-2.5">
+          <div class="flex items-center justify-between">
+            <h3 class="text-xs font-bold text-slate-800 uppercase tracking-wider flex items-center gap-1.5">
+              <span class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></span>
+              Immediate Today's Queue (3)
+            </h3>
+            <button onclick="switchScreen('reminders')" class="text-xs font-semibold text-blue-600 hover:underline">View All</button>
+          </div>
+
+          <!-- Urgent Card 1 -->
+          <div onclick="switchScreen('customer_profile')" class="bg-white border border-slate-200/90 rounded-2xl p-3.5 shadow-sm flex flex-col gap-2 cursor-pointer hover:border-blue-400 transition">
+            <div class="flex items-start justify-between">
+              <div class="flex items-center gap-2.5">
+                <div class="w-9 h-9 rounded-full bg-blue-100 text-blue-700 font-bold flex items-center justify-center text-xs">
+                  RS
+                </div>
+                <div>
+                  <h4 class="text-sm font-bold text-slate-900 leading-tight">Rajesh Sharma</h4>
+                  <p class="text-xs text-slate-500">Kent Grand+ RO • Sector 14, Gurgaon</p>
+                </div>
+              </div>
+              <span class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-100 text-amber-800 border border-amber-200">
+                TDS > 380 High
+              </span>
+            </div>
+            <div class="flex items-center justify-between text-xs pt-1 border-t border-slate-100">
+              <span class="text-slate-500 flex items-center gap-1 font-medium">
+                <svg class="w-3.5 h-3.5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                11:30 AM Slot
+              </span>
+              <div class="flex items-center gap-1.5">
+                <a href="tel:+919876543210" onclick="event.stopPropagation()" class="px-2.5 py-1 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-lg text-xs font-semibold flex items-center gap-1">
+                  📞 Call
+                </a>
+                <button onclick="event.stopPropagation(); triggerWhatsApp('Rajesh Sharma')" class="px-2.5 py-1 bg-emerald-50 hover:bg-emerald-100 text-emerald-700 rounded-lg text-xs font-bold flex items-center gap-1 border border-emerald-200">
+                  💬 WhatsApp
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Urgent Card 2 -->
+          <div class="bg-white border border-slate-200/90 rounded-2xl p-3.5 shadow-sm flex flex-col gap-2">
+            <div class="flex items-start justify-between">
+              <div class="flex items-center gap-2.5">
+                <div class="w-9 h-9 rounded-full bg-emerald-100 text-emerald-700 font-bold flex items-center justify-center text-xs">
+                  PK
+                </div>
+                <div>
+                  <h4 class="text-sm font-bold text-slate-900 leading-tight">Pooja Kapoor</h4>
+                  <p class="text-xs text-slate-500">Aquaguard Nova • DLF Phase 3</p>
+                </div>
+              </div>
+              <span class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-red-100 text-red-700 border border-red-200">
+                Filter Clogged
+              </span>
+            </div>
+            <div class="flex items-center justify-between text-xs pt-1 border-t border-slate-100">
+              <span class="text-slate-500 flex items-center gap-1 font-medium">
+                <svg class="w-3.5 h-3.5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                02:15 PM Slot
+              </span>
+              <button onclick="triggerWhatsApp('Pooja Kapoor')" class="px-2.5 py-1 bg-emerald-50 text-emerald-700 rounded-lg text-xs font-bold flex items-center gap-1 border border-emerald-200">
+                💬 Remind
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Assigned Field Technicians Status -->
+        <div class="bg-slate-900 text-white rounded-2xl p-4 shadow-lg flex flex-col gap-3">
+          <div class="flex items-center justify-between">
+            <div>
+              <h4 class="text-sm font-bold text-white">Technician Duty Status</h4>
+              <p class="text-[11px] text-slate-400">4 Active on field • 1 on leave</p>
+            </div>
+            <button onclick="switchScreen('technicians')" class="text-xs font-semibold text-blue-400 hover:text-blue-300">Manage</button>
+          </div>
+          <div class="flex items-center gap-3">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOaKoFDFT9pa9WMWoM3EMp9Yz1ViHbS9OFjQlI_3U9n_ke4IEvimWvtOmkDVBGcv__ZF1-TWoIMzEqwLPp_0GoXJ5zkPaVH753_Uk1hsSV1bLjKtfqEGAY0Qm9G-PyuQNJ8XUVFrHFW2xx_4SUwlQqn-eg6VV_vIsY6Zc9FcecVeA9jOjQ3C_3jAO7wmVus7kEg3Stu_nNrIVl3zvWM5av9UieLQQn4hB706qmZA9bXzP8zUo7hXT2qA" alt="Sunil Kumar" class="w-11 h-11 rounded-full object-cover border-2 border-emerald-400 shadow-sm">
+            <div class="flex-1">
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-bold text-white">Sunil Kumar (Senior Tech)</span>
+                <span class="text-[10px] bg-emerald-500/20 text-emerald-300 px-1.5 py-0.5 rounded font-semibold">Active: Job 3/5</span>
+              </div>
+              <p class="text-[11px] text-slate-400 mt-0.5">Currently at: Golf Course Rd, Sec 54</p>
+              <div class="w-full bg-slate-700 rounded-full h-1.5 mt-2">
+                <div class="bg-emerald-400 h-1.5 rounded-full" style="width: 60%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= 2. REMINDERS (AMC & OVERDUE) ================= -->
+      <section id="view-reminders" class="screen-view hidden p-4 pb-24 flex flex-col gap-3">
+        <div class="flex items-center justify-between">
+          <div>
+            <h2 class="text-lg font-bold text-slate-900">Service Reminders</h2>
+            <p class="text-xs text-slate-500">Automated WhatsApp & SMS trigger list</p>
+          </div>
+          <button onclick="broadcastReminders()" class="px-3 py-1.5 bg-emerald-600 text-white text-xs font-bold rounded-xl shadow-sm hover:bg-emerald-500 flex items-center gap-1.5">
+            <span>⚡ Send All (8)</span>
+          </button>
+        </div>
+
+        <!-- Filter Segment -->
+        <div class="flex p-1 bg-slate-200/80 rounded-xl text-xs font-semibold">
+          <button class="flex-1 py-1.5 bg-white text-blue-600 rounded-lg shadow-xs">Overdue (5)</button>
+          <button class="flex-1 py-1.5 text-slate-600 hover:text-slate-900">Next 7 Days (12)</button>
+          <button class="flex-1 py-1.5 text-slate-600 hover:text-slate-900">AMC Renewal (9)</button>
+        </div>
+
+        <!-- Reminder Cards -->
+        <div class="flex flex-col gap-2.5">
+          <!-- Card 1 -->
+          <div class="bg-white border border-red-200 rounded-2xl p-3.5 shadow-xs flex flex-col gap-2">
+            <div class="flex items-start justify-between">
+              <div>
+                <span class="text-[10px] font-bold text-red-600 bg-red-50 border border-red-200 px-2 py-0.5 rounded-md uppercase">14 Days Overdue</span>
+                <h4 class="text-sm font-bold text-slate-900 mt-1">Amit Verma</h4>
+                <p class="text-xs text-slate-500">Livpure Glo • Sector 21</p>
+              </div>
+              <button onclick="triggerWhatsApp('Amit Verma')" class="bg-emerald-600 text-white px-3 py-1.5 rounded-xl text-xs font-bold flex items-center gap-1 shadow-sm">
+                💬 WhatsApp
+              </button>
+            </div>
+            <p class="text-xs text-slate-600 bg-slate-50 p-2 rounded-lg italic">
+              "Hi Amitji, your RO periodic membrane change was due on 12th Oct. Tap to schedule doorstep service."
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="bg-white border border-amber-200 rounded-2xl p-3.5 shadow-xs flex flex-col gap-2">
+            <div class="flex items-start justify-between">
+              <div>
+                <span class="text-[10px] font-bold text-amber-700 bg-amber-50 border border-amber-200 px-2 py-0.5 rounded-md uppercase">AMC Expiring in 4 Days</span>
+                <h4 class="text-sm font-bold text-slate-900 mt-1">Meenakshi Sundaram</h4>
+                <p class="text-xs text-slate-500">Havells Max Alkaline • Sushant Lok 1</p>
+              </div>
+              <button onclick="triggerWhatsApp('Meenakshi')" class="bg-emerald-600 text-white px-3 py-1.5 rounded-xl text-xs font-bold flex items-center gap-1 shadow-sm">
+                💬 Renew AMC
+              </button>
+            </div>
+            <div class="flex items-center justify-between text-xs text-slate-500 pt-1">
+              <span>Annual Contract: ₹2,400</span>
+              <span class="font-semibold text-slate-700">Exp: 28 Oct 2024</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= 3. CUSTOMERS DIRECTORY ================= -->
+      <section id="view-customers" class="screen-view hidden p-4 pb-24 flex flex-col gap-3">
+        <div class="flex items-center justify-between">
+          <div>
+            <h2 class="text-lg font-bold text-slate-900">Customers (142)</h2>
+            <p class="text-xs text-slate-500">Verified household & commercial clients</p>
+          </div>
+          <button onclick="openAddCustomerModal()" class="px-3 py-2 bg-blue-600 text-white text-xs font-bold rounded-xl shadow-md hover:bg-blue-500 flex items-center gap-1">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/></svg>
+            Add Client
+          </button>
+        </div>
+
+        <!-- Search Bar with Filter Bottom-Sheet Trigger -->
+        <div class="flex items-center gap-2">
+          <div class="flex-1 bg-white border border-slate-200 rounded-xl px-3 py-2 flex items-center gap-2 shadow-xs">
+            <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+            <input type="text" id="customer-search-input" placeholder="Search name, phone, RO model..." class="w-full text-xs text-slate-800 outline-none bg-transparent">
+          </div>
+          <button onclick="openFilterSheet()" class="p-2.5 bg-white border border-slate-200 rounded-xl text-slate-600 hover:bg-slate-50 shadow-xs relative">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"/></svg>
+            <span class="w-2 h-2 rounded-full bg-blue-600 absolute top-1.5 right-1.5"></span>
+          </button>
+        </div>
+
+        <!-- Customer List Cards -->
+        <div class="flex flex-col gap-2">
+          <!-- Item 1 -->
+          <div onclick="switchScreen('customer_profile')" class="bg-white border border-slate-200 rounded-2xl p-3 shadow-xs hover:border-blue-400 cursor-pointer transition flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-blue-50 border border-blue-200 text-blue-700 font-bold flex items-center justify-center text-xs">
+                RS
+              </div>
+              <div>
+                <div class="flex items-center gap-1.5">
+                  <h4 class="text-sm font-bold text-slate-900">Rajesh Sharma</h4>
+                  <span class="text-[9px] font-extrabold px-1.5 py-0.2 bg-emerald-100 text-emerald-800 rounded">AMC Valid</span>
+                </div>
+                <p class="text-xs text-slate-500">+91 98765 43210 • Kent Grand+</p>
+                <p class="text-[11px] text-blue-600 font-semibold mt-0.5">Next Service: 24 Oct (Due Today)</p>
+              </div>
+            </div>
+            <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="bg-white border border-slate-200 rounded-2xl p-3 shadow-xs hover:border-blue-400 cursor-pointer transition flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-slate-100 text-slate-700 font-bold flex items-center justify-center text-xs">
+                AK
+              </div>
+              <div>
+                <div class="flex items-center gap-1.5">
+                  <h4 class="text-sm font-bold text-slate-900">Ananya Kulkarni</h4>
+                  <span class="text-[9px] font-bold px-1.5 py-0.2 bg-amber-100 text-amber-800 rounded">Warranty</span>
+                </div>
+                <p class="text-xs text-slate-500">+91 98112 88721 • Aquaguard Royale</p>
+                <p class="text-[11px] text-slate-400 mt-0.5">Last serviced 3 months ago</p>
+              </div>
+            </div>
+            <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="bg-white border border-slate-200 rounded-2xl p-3 shadow-xs hover:border-blue-400 cursor-pointer transition flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-red-50 text-red-700 font-bold flex items-center justify-center text-xs">
+                VS
+              </div>
+              <div>
+                <div class="flex items-center gap-1.5">
+                  <h4 class="text-sm font-bold text-slate-900">Vikram Singh</h4>
+                  <span class="text-[9px] font-bold px-1.5 py-0.2 bg-red-100 text-red-700 rounded">Expired</span>
+                </div>
+                <p class="text-xs text-slate-500">+91 97123 45678 • AO Smith Pro</p>
+                <p class="text-[11px] text-red-500 font-semibold mt-0.5">Filter replacement overdue</p>
+              </div>
+            </div>
+            <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= 4. CUSTOMER PROFILE (RAJESH SHARMA) ================= -->
+      <section id="view-customer_profile" class="screen-view hidden p-4 pb-24 flex flex-col gap-3.5">
+        <!-- Profile Header Bar -->
+        <div class="flex items-center justify-between">
+          <button onclick="switchScreen('customers')" class="p-2 -ml-2 rounded-xl text-slate-700 hover:bg-slate-200/80">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+          </button>
+          <span class="text-xs font-bold text-slate-500 uppercase tracking-widest">Client Profile #849</span>
+          <div class="flex items-center gap-1">
+            <button onclick="alert('Profile Edit Mode Activated')" class="p-2 text-slate-600 hover:text-blue-600">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"/></svg>
+            </button>
+            <button onclick="confirmDeleteCustomer()" class="p-2 text-slate-400 hover:text-red-600">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Identity & Fast Call Card -->
+        <div class="bg-white border border-slate-200 rounded-2xl p-4 shadow-sm flex flex-col gap-3">
+          <div class="flex items-center gap-3">
+            <div class="w-14 h-14 rounded-2xl bg-gradient-to-tr from-blue-600 to-indigo-700 text-white font-black text-xl flex items-center justify-center shadow-md">
+              RS
+            </div>
+            <div class="flex-1">
+              <div class="flex items-center gap-2">
+                <h3 class="text-base font-extrabold text-slate-900">Rajesh Sharma</h3>
+                <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+              </div>
+              <p class="text-xs text-slate-600 font-medium">+91 98765 43210</p>
+              <p class="text-[11px] text-slate-400">Plot 42, Sector 14, Urban Estate, Gurgaon</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2 gap-2 pt-2 border-t border-slate-100">
+            <a href="tel:+919876543210" class="py-2.5 bg-blue-50 hover:bg-blue-100 text-blue-700 rounded-xl text-xs font-bold flex items-center justify-center gap-1.5 border border-blue-200">
+              📞 Direct Call
+            </a>
+            <button onclick="triggerWhatsApp('Rajesh Sharma')" class="py-2.5 bg-emerald-50 hover:bg-emerald-100 text-emerald-700 rounded-xl text-xs font-bold flex items-center justify-center gap-1.5 border border-emerald-200">
+              💬 WhatsApp
+            </button>
+          </div>
+        </div>
+
+        <!-- Installed Product & TDS Card -->
+        <div class="bg-white border border-slate-200 rounded-2xl p-4 shadow-sm flex flex-col gap-3">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-slate-800 uppercase tracking-wider">Water Purifier Machine</span>
+            <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-blue-100 text-blue-800">RO + UV + UF</span>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 bg-slate-100 rounded-xl flex items-center justify-center text-slate-400 border border-slate-200">
+              💧
+            </div>
+            <div>
+              <h4 class="text-sm font-bold text-slate-900">Kent Grand Plus Alkaline</h4>
+              <p class="text-xs text-slate-500">Installed: 15 Mar 2023 • Capacity 8L/hr</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-3 gap-2 bg-slate-50 p-2.5 rounded-xl border border-slate-200/80 text-center">
+            <div>
+              <span class="text-[10px] text-slate-500 block">Raw TDS</span>
+              <span class="text-xs font-bold text-red-600">840 ppm</span>
+            </div>
+            <div>
+              <span class="text-[10px] text-slate-500 block">Pure TDS</span>
+              <span class="text-xs font-bold text-emerald-600">92 ppm</span>
+            </div>
+            <div>
+              <span class="text-[10px] text-slate-500 block">AMC Status</span>
+              <span class="text-xs font-bold text-blue-600">Active (Year 2)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Voice Memo Component -->
+        <div class="bg-indigo-50/70 border border-indigo-200 rounded-2xl p-3.5 flex items-center justify-between shadow-xs">
+          <div class="flex items-center gap-2.5">
+            <button onclick="playVoiceSample()" class="w-9 h-9 rounded-full bg-indigo-600 text-white flex items-center justify-center shadow-sm">
+              ▶
+            </button>
+            <div>
+              <p class="text-xs font-bold text-indigo-950">Customer Voice Instruction</p>
+              <p class="text-[10px] text-indigo-700">"Only come after 11am because society water pump starts then"</p>
+            </div>
+          </div>
+          <span class="text-xs font-bold text-indigo-600">0:24</span>
+        </div>
+
+        <!-- History Button -->
+        <button onclick="switchScreen('service_records')" class="w-full py-3 bg-white border border-slate-300 text-slate-700 font-bold rounded-xl text-xs flex items-center justify-center gap-2 hover:bg-slate-50 shadow-xs">
+          <span>📜 View Complete Service History (5 Logs)</span>
+        </button>
+      </section>
+
+      <!-- ================= 5. SERVICE RECORDS TIMELINE ================= -->
+      <section id="view-service_records" class="screen-view hidden p-4 pb-24 flex flex-col gap-3">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <button onclick="switchScreen('customer_profile')" class="p-1 rounded-lg text-slate-600 hover:bg-slate-200">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+            </button>
+            <h2 class="text-base font-bold text-slate-900">Service Logs (Rajesh Sharma)</h2>
+          </div>
+          <button onclick="switchScreen('add_record')" class="px-2.5 py-1.5 bg-blue-600 text-white rounded-lg text-xs font-bold shadow-xs">
+            + New Log
+          </button>
+        </div>
+
+        <!-- Chronological Timeline Cards -->
+        <div class="flex flex-col gap-3 mt-1">
+          <!-- Record 1 (Recent) -->
+          <div class="bg-white border border-slate-200 rounded-2xl p-3.5 shadow-xs flex flex-col gap-2">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-bold text-slate-800">14 Jun 2024</span>
+              <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-100 text-emerald-800">Completed & Paid</span>
+            </div>
+            <div class="text-xs text-slate-700">
+              <p class="font-semibold text-slate-900">Complaint: Low flow & metallic taste</p>
+              <p class="text-slate-500 mt-0.5">Parts Replaced: Carbon Block + Sediment Filter</p>
+            </div>
+            <div class="flex items-center justify-between pt-2 border-t border-slate-100 text-xs">
+              <span class="text-slate-500">Tech: Sunil Kumar</span>
+              <span class="font-extrabold text-slate-900">₹1,650</span>
+            </div>
+          </div>
+
+          <!-- Record 2 -->
+          <div class="bg-white border border-slate-200 rounded-2xl p-3.5 shadow-xs flex flex-col gap-2">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-bold text-slate-800">10 Jan 2024</span>
+              <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-blue-100 text-blue-800">AMC Free Visit</span>
+            </div>
+            <div class="text-xs text-slate-700">
+              <p class="font-semibold text-slate-900">General Routine Sanitization</p>
+              <p class="text-slate-500 mt-0.5">Parts Replaced: None (Membrane sanitized)</p>
+            </div>
+            <div class="flex items-center justify-between pt-2 border-t border-slate-100 text-xs">
+              <span class="text-slate-500">Tech: Amit Yadav</span>
+              <span class="font-extrabold text-emerald-600">₹0 (AMC)</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= 6. ADD SERVICE RECORD SCREEN ================= -->
+      <section id="view-add_record" class="screen-view hidden p-4 pb-28 flex flex-col gap-3">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <button onclick="switchScreen('dashboard')" class="p-1 rounded-lg text-slate-600 hover:bg-slate-200">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+            </button>
+            <h2 class="text-base font-bold text-slate-900">New Service Record</h2>
+          </div>
+          <span class="text-xs text-slate-500">Step 1 of 2</span>
+        </div>
+
+        <!-- Form Elements -->
+        <div class="bg-white border border-slate-200 rounded-2xl p-4 shadow-sm flex flex-col gap-3">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Customer Selection</label>
+            <input type="text" value="Rajesh Sharma (+91 98765 43210)" readonly class="w-full bg-slate-50 border border-slate-200 rounded-xl px-3 py-2 text-xs font-semibold text-slate-800">
+          </div>
+
+          <div class="grid grid-cols-2 gap-2">
+            <div>
+              <label class="block text-xs font-bold text-slate-700 mb-1">Service Date</label>
+              <input type="date" value="2024-10-24" class="w-full bg-white border border-slate-200 rounded-xl px-2.5 py-2 text-xs text-slate-800">
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 mb-1">Service Type</label>
+              <select class="w-full bg-white border border-slate-200 rounded-xl px-2.5 py-2 text-xs text-slate-800">
+                <option>Filter Replacement</option>
+                <option>Full RO Overhaul</option>
+                <option>Leakage Repair</option>
+                <option>AMC Routine Check</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Parts Replaced</label>
+            <input type="text" placeholder="e.g. 75 GPD RO Membrane, Inline Carbon" class="w-full bg-white border border-slate-200 rounded-xl px-3 py-2 text-xs text-slate-800">
+          </div>
+
+          <div class="grid grid-cols-2 gap-2">
+            <div>
+              <label class="block text-xs font-bold text-slate-700 mb-1">Amount Charged (₹)</label>
+              <input type="number" value="1850" class="w-full bg-white border border-slate-200 rounded-xl px-3 py-2 text-xs font-bold text-blue-700">
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 mb-1">Assign Technician</label>
+              <select class="w-full bg-white border border-slate-200 rounded-xl px-2.5 py-2 text-xs text-slate-800">
+                <option>Sunil Kumar</option>
+                <option>Amit Yadav</option>
+                <option>Self (Owner)</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Technician Field Notes</label>
+            <textarea rows="2" placeholder="Mention pressure reading, TDS before/after..." class="w-full bg-white border border-slate-200 rounded-xl p-2.5 text-xs text-slate-800"></textarea>
+          </div>
+        </div>
+
+        <!-- Sticky Bottom Save Action Container (Always Safe Above Nav) -->
+        <div class="fixed bottom-16 left-0 right-0 max-w-[396px] mx-auto px-4 z-20">
+          <button onclick="saveRecordSuccess()" class="w-full py-3.5 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-xl text-sm shadow-xl touch-press flex items-center justify-center gap-2">
+            <span>💾 Save Record & Schedule Next Service</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- ================= 7. TECHNICIANS & ANALYTICS ================= -->
+      <section id="view-technicians" class="screen-view hidden p-4 pb-24 flex flex-col gap-3">
+        <div class="flex items-center justify-between">
+          <div>
+            <h2 class="text-lg font-bold text-slate-900">Service Crew (5)</h2>
+            <p class="text-xs text-slate-500">Live operational field tracking</p>
+          </div>
+          <button onclick="alert('Add Technician Dialog')" class="px-3 py-1.5 bg-blue-600 text-white rounded-xl text-xs font-bold">
+            + Add Tech
+          </button>
+        </div>
+
+        <!-- Analytics Overview Bar Chart -->
+        <div class="bg-white border border-slate-200 rounded-2xl p-3.5 shadow-xs flex flex-col gap-2">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-slate-800">Weekly Job Output</span>
+            <span class="text-xs text-emerald-600 font-bold">42 Jobs Completed</span>
+          </div>
+          <div class="flex items-end justify-between h-20 pt-4 px-2 gap-2 border-b border-slate-100">
+            <div class="flex-1 flex flex-col items-center gap-1">
+              <div class="w-full bg-blue-200 rounded-t" style="height: 40%"></div>
+              <span class="text-[9px] text-slate-500">Mon</span>
+            </div>
+            <div class="flex-1 flex flex-col items-center gap-1">
+              <div class="w-full bg-blue-300 rounded-t" style="height: 65%"></div>
+              <span class="text-[9px] text-slate-500">Tue</span>
+            </div>
+            <div class="flex-1 flex flex-col items-center gap-1">
+              <div class="w-full bg-blue-400 rounded-t" style="height: 80%"></div>
+              <span class="text-[9px] text-slate-500">Wed</span>
+            </div>
+            <div class="flex-1 flex flex-col items-center gap-1">
+              <div class="w-full bg-blue-600 rounded-t" style="height: 95%"></div>
+              <span class="text-[9px] font-bold text-blue-700">Today</span>
+            </div>
+            <div class="flex-1 flex flex-col items-center gap-1">
+              <div class="w-full bg-slate-200 rounded-t" style="height: 20%"></div>
+              <span class="text-[9px] text-slate-400">Fri</span>
+            </div>
+          </div>
+          <p class="text-[11px] text-slate-500 text-center">Peak activity on Thursdays (average 11 doorstep visits)</p>
+        </div>
+
+        <!-- Technician Cards -->
+        <div class="flex flex-col gap-2.5">
+          <!-- Sunil Kumar -->
+          <div class="bg-white border border-slate-200 rounded-2xl p-3.5 shadow-xs flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOaKoFDFT9pa9WMWoM3EMp9Yz1ViHbS9OFjQlI_3U9n_ke4IEvimWvtOmkDVBGcv__ZF1-TWoIMzEqwLPp_0GoXJ5zkPaVH753_Uk1hsSV1bLjKtfqEGAY0Qm9G-PyuQNJ8XUVFrHFW2xx_4SUwlQqn-eg6VV_vIsY6Zc9FcecVeA9jOjQ3C_3jAO7wmVus7kEg3Stu_nNrIVl3zvWM5av9UieLQQn4hB706qmZA9bXzP8zUo7hXT2qA" alt="Sunil Kumar" class="w-12 h-12 rounded-full object-cover border-2 border-emerald-500">
+              <div>
+                <h4 class="text-sm font-bold text-slate-900">Sunil Kumar</h4>
+                <p class="text-xs text-slate-500">+91 98234 56789 • Senior Specialist</p>
+                <div class="flex items-center gap-2 mt-1">
+                  <span class="text-[10px] bg-emerald-100 text-emerald-800 font-bold px-1.5 py-0.2 rounded">4.9 ★ (120 visits)</span>
+                  <span class="text-[10px] text-blue-600 font-semibold">3 Jobs Assigned</span>
+                </div>
+              </div>
+            </div>
+            <button onclick="alert('Calling Sunil Kumar')" class="p-2.5 bg-slate-100 hover:bg-slate-200 rounded-xl text-slate-700">
+              📞
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= 8. SETTINGS & ENCRYPTED BACKUP ================= -->
+      <section id="view-settings" class="screen-view hidden p-4 pb-24 flex flex-col gap-3.5">
+        <div class="flex items-center justify-between">
+          <h2 class="text-lg font-bold text-slate-900">App Settings</h2>
+          <span class="text-xs text-slate-400 font-medium">Build 2.4.0 (2024)</span>
+        </div>
+
+        <!-- Business Identity -->
+        <div class="bg-white border border-slate-200 rounded-2xl p-3.5 shadow-xs flex items-center gap-3">
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAthQrBuo3K74IUuS4xXdQBF8VT5NCmGZ667oy-9wZOoDbjPlKmB-qzIbUlri9HImWTA6GMXWL3EqaagnMqa2NuOiLlSQY-lE1oH7ChK816R2W-gdsDymn8TReZSuv8BIMjmCvQd6HTxzK34TkKAJ7-kPVbIBJeoohGiEG3oJjNvyuSEwjyZvEJjUXG6ZewF2HXl9hbH6dTvTe9P0GB8E2-mSFfVbrapD25pph6vFbqPY_-3NyI5tSjNx8vJt7AxTjitsk" alt="Servizo Logo" class="w-12 h-12 rounded-xl object-contain bg-white p-1 border border-slate-100 shadow-xs">
+          <div class="flex-1">
+            <h4 class="text-sm font-bold text-slate-900">AquaPure RO Solutions</h4>
+            <p class="text-xs text-slate-500">Sector 14, Gurgaon, Haryana</p>
+            <p class="text-[10px] text-emerald-600 font-bold mt-0.5">● Database Sync Verified</p>
+          </div>
+        </div>
+
+        <!-- Settings Groups -->
+        <div class="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-xs divide-y divide-slate-100 text-xs">
+          <div class="p-3.5 flex items-center justify-between hover:bg-slate-50 cursor-pointer">
+            <div class="flex items-center gap-2.5 text-slate-800 font-semibold">
+              <span>🔒</span>
+              <span>Change 4-Digit Security PIN</span>
+            </div>
+            <span class="text-slate-400">›</span>
+          </div>
+          <div class="p-3.5 flex items-center justify-between hover:bg-slate-50 cursor-pointer">
+            <div class="flex items-center gap-2.5 text-slate-800 font-semibold">
+              <span>🔔</span>
+              <span>Automated WhatsApp Reminder Template</span>
+            </div>
+            <span class="text-blue-600 font-bold">Configured</span>
+          </div>
+          <div class="p-3.5 flex items-center justify-between hover:bg-slate-50 cursor-pointer">
+            <div class="flex items-center gap-2.5 text-slate-800 font-semibold">
+              <span>🗄️</span>
+              <span>Encrypted Backup (.servizo)</span>
+            </div>
+            <button onclick="triggerBackup()" class="px-2.5 py-1 bg-blue-50 text-blue-700 border border-blue-200 rounded-lg font-bold">
+              Backup Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Danger Zone (Explicitly Separated) -->
+        <div class="bg-red-50/70 border border-red-200 rounded-2xl p-4 flex flex-col gap-2">
+          <h4 class="text-xs font-bold text-red-800 uppercase tracking-wider">Danger Zone</h4>
+          <p class="text-xs text-red-600">Resetting will erase all local customer profiles, voice memos, and service history.</p>
+          <button onclick="confirmResetApp()" class="w-full py-2.5 bg-red-600 hover:bg-red-700 text-white font-bold rounded-xl text-xs mt-1 shadow-sm">
+            ⚠️ Wipe & Reset Servizo Database
+          </button>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- ================= BOTTOM NAVIGATION BAR (Android Safe Area) ================= -->
+    <nav class="h-16 w-full bg-white border-t border-slate-200 flex items-center justify-around px-2 z-30 shrink-0 shadow-lg">
+      <button onclick="switchScreen('dashboard')" class="tab-btn flex flex-col items-center justify-center flex-1 py-1 text-blue-600" data-target="dashboard">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+        <span class="text-[10px] font-bold mt-0.5">Home</span>
+      </button>
+
+      <button onclick="switchScreen('reminders')" class="tab-btn flex flex-col items-center justify-center flex-1 py-1 text-slate-400 hover:text-slate-600" data-target="reminders">
+        <div class="relative">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          <span class="w-1.5 h-1.5 bg-amber-500 rounded-full absolute -top-0.5 -right-0.5"></span>
+        </div>
+        <span class="text-[10px] font-semibold mt-0.5">Reminders</span>
+      </button>
+
+      <button onclick="switchScreen('customers')" class="tab-btn flex flex-col items-center justify-center flex-1 py-1 text-slate-400 hover:text-slate-600" data-target="customers">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+        <span class="text-[10px] font-semibold mt-0.5">Clients</span>
+      </button>
+
+      <button onclick="switchScreen('technicians')" class="tab-btn flex flex-col items-center justify-center flex-1 py-1 text-slate-400 hover:text-slate-600" data-target="technicians">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+        <span class="text-[10px] font-semibold mt-0.5">Crew</span>
+      </button>
+
+      <button onclick="switchScreen('settings')" class="tab-btn flex flex-col items-center justify-center flex-1 py-1 text-slate-400 hover:text-slate-600" data-target="settings">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+        <span class="text-[10px] font-semibold mt-0.5">Settings</span>
+      </button>
+    </nav>
+
+    <!-- Android Gesture Pill (Safe Area Cushion) -->
+    <div class="h-3 w-full bg-white flex items-center justify-center pb-1">
+      <div class="w-32 h-1 bg-slate-300 rounded-full"></div>
+    </div>
+
+    <!-- ================= MODALS & BOTTOM SHEETS ================= -->
+    <!-- Voice Note Recording Dialog -->
+    <div id="voice-modal" class="hidden absolute inset-0 bg-slate-900/60 backdrop-blur-xs z-50 flex items-end">
+      <div class="w-full bg-white rounded-t-3xl p-5 shadow-2xl flex flex-col gap-4 animate-in slide-in-from-bottom duration-200">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-red-500 animate-ping"></span>
+            <h3 class="text-sm font-bold text-slate-900">Recording Voice Instruction</h3>
+          </div>
+          <button onclick="closeVoiceModal()" class="text-slate-400 font-bold p-1">✕</button>
+        </div>
+
+        <!-- Waveform Simulation -->
+        <div class="h-16 bg-slate-100 rounded-2xl flex items-center justify-center gap-1 px-4">
+          <div class="w-1 bg-emerald-500 rounded-full animate-bounce h-6"></div>
+          <div class="w-1 bg-emerald-600 rounded-full animate-bounce h-10" style="animation-delay: 0.1s"></div>
+          <div class="w-1 bg-emerald-500 rounded-full animate-bounce h-8" style="animation-delay: 0.2s"></div>
+          <div class="w-1 bg-emerald-400 rounded-full animate-bounce h-12" style="animation-delay: 0.15s"></div>
+          <div class="w-1 bg-emerald-600 rounded-full animate-bounce h-5" style="animation-delay: 0.25s"></div>
+          <div class="w-1 bg-emerald-500 rounded-full animate-bounce h-9" style="animation-delay: 0.05s"></div>
+        </div>
+
+        <div class="flex items-center justify-between text-xs font-bold text-slate-600 px-2">
+          <span>00:18 sec</span>
+          <span class="text-emerald-600">Auto-Noise Reduction Active</span>
+        </div>
+
+        <div class="grid grid-cols-2 gap-2">
+          <button onclick="closeVoiceModal()" class="py-3 bg-slate-100 text-slate-700 font-bold rounded-xl text-xs">
+            Discard
+          </button>
+          <button onclick="saveVoiceNote()" class="py-3 bg-emerald-600 text-white font-bold rounded-xl text-xs shadow-md">
+            Save to Customer Record
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Filter & Sort Sheet -->
+    <div id="filter-sheet" class="hidden absolute inset-0 bg-slate-900/60 backdrop-blur-xs z-50 flex items-end">
+      <div class="w-full bg-white rounded-t-3xl p-5 shadow-2xl flex flex-col gap-3">
+        <div class="flex items-center justify-between pb-2 border-b border-slate-100">
+          <h3 class="text-sm font-bold text-slate-900">Filter & Sort Directory</h3>
+          <button onclick="closeFilterSheet()" class="text-slate-400 font-bold p-1">✕</button>
+        </div>
+        <div class="flex flex-col gap-2">
+          <label class="text-xs font-bold text-slate-700">Sort By</label>
+          <div class="grid grid-cols-2 gap-2 text-xs">
+            <button class="p-2 rounded-lg bg-blue-50 text-blue-700 font-bold border border-blue-200">Upcoming Service</button>
+            <button class="p-2 rounded-lg bg-slate-100 text-slate-600 font-semibold">Alphabetical (A-Z)</button>
+          </div>
+        </div>
+        <div class="flex flex-col gap-2 mt-1">
+          <label class="text-xs font-bold text-slate-700">Contract Filter</label>
+          <div class="flex flex-wrap gap-1.5 text-xs">
+            <span class="px-2.5 py-1 bg-emerald-100 text-emerald-800 font-bold rounded-lg cursor-pointer">AMC Active</span>
+            <span class="px-2.5 py-1 bg-slate-100 text-slate-600 font-medium rounded-lg cursor-pointer">Warranty Expired</span>
+            <span class="px-2.5 py-1 bg-slate-100 text-slate-600 font-medium rounded-lg cursor-pointer">TDS > 300</span>
+          </div>
+        </div>
+        <button onclick="closeFilterSheet()" class="mt-2 w-full py-3 bg-blue-600 text-white font-bold rounded-xl text-xs shadow-md">
+          Apply Filters
+        </button>
+      </div>
+    </div>
+
+  </main>
+
+  <script>
+    // Screen switcher logic
+    function switchScreen(screenKey) {
+      // Hide all screens
+      document.querySelectorAll('.screen-view').forEach(view => {
+        view.classList.add('hidden');
+      });
+
+      // Show selected screen
+      const activeView = document.getElementById('view-' + screenKey);
+      if (activeView) {
+        activeView.classList.remove('hidden');
+      }
+
+      // Update Desktop Pill highlight
+      document.querySelectorAll('.nav-pill').forEach(pill => {
+        if (pill.getAttribute('data-target') === screenKey) {
+          pill.classList.remove('bg-slate-700', 'text-slate-200');
+          pill.classList.add('bg-blue-600', 'text-white');
+        } else {
+          pill.classList.remove('bg-blue-600', 'text-white');
+          pill.classList.add('bg-slate-700', 'text-slate-200');
+        }
+      });
+
+      // Update Mobile Bottom Nav tab highlights
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        const target = btn.getAttribute('data-target');
+        if (target === screenKey) {
+          btn.classList.remove('text-slate-400');
+          btn.classList.add('text-blue-600');
+        } else {
+          btn.classList.remove('text-blue-600');
+          btn.classList.add('text-slate-400');
+        }
+      });
+
+      // Scroll viewport back to top
+      document.getElementById('viewport-content').scrollTop = 0;
+    }
+
+    // Modal helpers
+    function openVoiceModal() {
+      document.getElementById('voice-modal').classList.remove('hidden');
+    }
+    function closeVoiceModal() {
+      document.getElementById('voice-modal').classList.add('hidden');
+    }
+    function saveVoiceNote() {
+      closeVoiceModal();
+      alert('Voice note attached to customer record.');
+    }
+    function openFilterSheet() {
+      document.getElementById('filter-sheet').classList.remove('hidden');
+    }
+    function closeFilterSheet() {
+      document.getElementById('filter-sheet').classList.add('hidden');
+    }
+    function openAddCustomerModal() {
+      alert('Opening progressive Add Customer form with Contact Picker...');
+    }
+
+    // Actions
+    function triggerWhatsApp(clientName) {
+      alert('Opening WhatsApp handoff with pre-filled reminder template for ' + clientName);
+    }
+    function broadcastReminders() {
+      alert('Broadcasted 8 automated WhatsApp service reminders via cloud API.');
+    }
+    function toggleOfflineNotice() {
+      const toast = document.getElementById('offline-toast');
+      toast.classList.toggle('hidden');
+    }
+    function saveRecordSuccess() {
+      alert('Record saved! Next service scheduled in 90 days. Reminder queue updated.');
+      switchScreen('customer_profile');
+    }
+    function triggerBackup() {
+      alert('Encrypted backup "servizo_backup_20241024.servizo" generated with AES-256.');
+    }
+    function confirmResetApp() {
+      if (confirm('Are you sure you want to completely erase Servizo data? This action requires PIN authentication.')) {
+        alert('Authentication required: Enter 4-digit Master PIN.');
+      }
+    }
+    function confirmDeleteCustomer() {
+      if (confirm('Delete Rajesh Sharma from Servizo records?')) {
+        switchScreen('customers');
+      }
+    }
+    function playVoiceSample() {
+      alert('Playing customer instruction audio clip (0:24)...');
+    }
+
+    // Real-time clock for status bar
+    function updateClock() {
+      const now = new Date();
+      let hours = now.getHours();
+      let minutes = now.getMinutes();
+      minutes = minutes < 10 ? '0' + minutes : minutes;
+      const strTime = hours + ':' + minutes;
+      const elem = document.getElementById('status-time');
+      if (elem) elem.textContent = strTime;
+    }
+    setInterval(updateClock, 1000);
+    updateClock();
+  </script>
+</body>
+</html>
