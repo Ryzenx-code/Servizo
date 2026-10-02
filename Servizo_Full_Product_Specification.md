@@ -1,0 +1,10245 @@
+# 1. Product Identity
+- Product name: Servizo.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Tagline: Customers. Services. Reminders. All in one place.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Servizo is a local-first customer and service-management application.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The primary target is a small service-oriented business operated by the user's father.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application must prioritize simplicity, speed, reliability, privacy, and offline operation.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application must store operational business data locally on the device by default.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Cloud synchronization is not required for the core product.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application must continue to function when there is no internet connection.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The product should feel modern and polished while remaining practical for daily business use.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The UI should use large touch targets and clear labels.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The UI should minimize unnecessary typing.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Contact picking should reduce manual entry of phone numbers.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Local notifications should drive service follow-up behavior.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Full encrypted backup and restore must protect against device loss.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- All customer assets must be included in full backups.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 2. Product Principles
+- Local-first is the default architecture.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The local database is the primary source of truth.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Every destructive action must be explicit.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Sensitive actions must require PIN or biometric authentication where specified.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Permission requests must be contextual rather than presented unnecessarily at first launch.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application must explain why a permission is needed before or alongside the system permission prompt.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- If a permission is denied, the user must still be able to use the rest of the application.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- No customer information should be silently uploaded.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- No cloud account should be mandatory for basic operation.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Backups must be user-controlled.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Backup files must be encrypted.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application must validate backup files before restoration.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application must preserve data relationships during backup and restore.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application must gracefully handle missing optional assets.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application must provide clear empty states.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application must provide clear loading states.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application must provide clear error states.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application must avoid irreversible operations without confirmation.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application must use consistent terminology throughout the product.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 3. First Launch
+- First launch begins with a heavily animated Servizo welcome experience.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The welcome screen must prominently display the Servizo logo.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The logo animation should be smooth and short enough not to delay use.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The tagline should animate into view after the logo.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The welcome screen should transition smoothly into setup.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The first-run flow should not expose the full dashboard before setup is complete.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Setup progress should be visible.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Setup should be resumable if the application is closed unexpectedly.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The user should not lose already entered setup information after a temporary interruption.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The setup flow should validate required fields before allowing completion.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Optional fields should be clearly marked optional.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Required permissions should be requested at the point where their feature is used.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The setup flow should collect owner name.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The setup flow should collect company name.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The setup flow should collect company logo.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The setup flow should collect business location.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The setup flow should collect profile photo.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The setup flow should create a four-digit security PIN.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The setup flow should offer biometric authentication.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The setup flow should configure auto-lock.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 4. Setup: Business Identity
+- Owner name is required.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Company name is required.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Company logo is optional.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Logo can be selected from the gallery.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Logo can optionally be captured using the camera if camera access is available.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The selected logo must be copied into Servizo-managed local storage.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application must not depend on an external gallery URI remaining permanently available.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The logo should be displayed in a preview before setup completion.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The user must be able to replace the logo before completing setup.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The user must be able to remove an optional logo.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Company name should appear in appropriate branded areas after setup.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Owner name should be used by the dynamic dashboard greeting.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Profile photo should be stored locally.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Profile photo should be replaceable later.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Business identity settings must be editable from Settings.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 5. Setup: Location
+- The setup flow should contain a business location step.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The app should explain that location is used to save the business location.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- GPS permission should be requested when the user starts location selection.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The app must handle location permission denial.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The user must be able to retry location permission from setup.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The app should obtain the current location when permission is granted.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The location should be shown as a pin on a map.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The user should be able to confirm the location.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Where supported, the user should be able to adjust the pin.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The saved location should include latitude.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The saved location should include longitude.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The location should be stored locally.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application should not continuously track the user's location for this feature.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The saved location should represent the business location rather than a live tracking stream.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The business location should be editable later.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 6. Setup: Security
+- The application must require a four-digit PIN during setup.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- PIN entry must use an on-screen numeric keypad.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The PIN must not be entered using the normal keyboard.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- PIN confirmation must be required.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Mismatched PIN entries must show a clear error.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application should not display the PIN in plain text.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The stored PIN representation must be protected using secure credential storage or a secure derived representation.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application must never store a recoverable plaintext PIN.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Biometric authentication should be offered after the PIN is created.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Biometric enrollment must depend on device support.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The app should explain that device biometrics are used for app authentication.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- If biometrics are unavailable, PIN authentication remains available.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- If biometric authentication fails, the user should be able to use the PIN.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application should not lock the user out permanently because of biometric failure.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Auto-lock should be configurable.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 7. Main Navigation
+- The primary navigation uses an iOS-style bottom navigation bar.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The navigation bar contains Dashboard.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The navigation bar contains Customers.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The navigation bar contains Technicians.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The navigation bar contains Settings.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The selected tab must be visually distinct.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Tab changes should use smooth transitions.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The navigation bar should remain consistent across primary screens.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The navigation bar should not obscure scrollable content.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The navigation bar must respect device safe areas.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Icons should be paired with readable labels.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The navigation bar should provide appropriate accessibility labels.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 8. Dashboard
+- Dashboard is the primary operational screen after setup.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The dashboard header should display a dynamic greeting.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The greeting should use the configured owner name.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The greeting should change according to local time.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The greeting may include the user's profile photo.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The dashboard should show upcoming service reminders.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The upcoming service section should include a View action.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The upcoming service section should show relevant service cards.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Each service card should show customer name.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Each service card should show product name.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Each service card should show last service date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Each card should expose the service due date when available.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Tapping a reminder must open the respective customer detail page.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The dashboard should show quick actions.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The dashboard should contain a View Customer Details card.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The dashboard should contain a View Service Records card.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The View Customer Details action should navigate to the customer area.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The View Service Records action should navigate to service records.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 9. Dashboard Service Actions
+- Customer service details must expose a Call Customer action.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Call Customer should launch the device phone application.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application should pass the customer phone number to the phone action when supported.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The app must not attempt to silently place a call without user interaction.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Customer service details must expose a Send to Technician action.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Send to Technician should prepare a WhatsApp message when WhatsApp is available.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The message should contain customer name.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The message should contain customer phone.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The message should contain product name.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The message should contain service type.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The message should contain customer address.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The message should be presented through WhatsApp for user confirmation.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The app should handle WhatsApp not being installed.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The app should provide a fallback such as copying the prepared message.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The app should never silently send a WhatsApp message without user confirmation.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 10. Customers List
+- Customers is a primary navigation destination.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The customer list should show all locally stored customers.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The list should support search.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The list should support sorting.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The list should support filtering.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The default sorting can be alphabetical by customer name.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The user should be able to sort by recently added.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The user should be able to sort by next service date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The user should be able to sort by last service date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The user should be able to filter by warranty.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The user should be able to filter by AMC.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The user should be able to filter by upcoming service.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The user should be able to filter by overdue service.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The list should support an empty state.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The list should show a prominent Add New Customer action.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The Add New Customer action should be available at the top right.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 11. Customer Profile
+- Tapping a customer opens the customer detail screen.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The customer detail screen should use cards for major information groups.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The customer identity card should show customer name.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The identity card should show customer phone number.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The identity card should show customer address.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The product card should show product name.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The product card should show product image when available.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The product card should show TDS value when available.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The product card should show product specifications.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The product card should show product purchased amount in INR.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The warranty card should show warranty status.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The warranty card should show warranty duration.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The warranty card should show warranty start date when available.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The warranty card should show estimated warranty end date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The AMC card should only appear when AMC exists.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Customers with AMC should receive an AMC tag.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The AMC card should show AMC plan.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The AMC card should show AMC amount.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The AMC card should show AMC start date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The AMC card should show AMC end date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The profile should show the last serviced date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The profile should show general service frequency.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The profile should show next service date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 12. General Service Frequency
+- Every customer can have a general service frequency.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The service frequency is used to calculate the next general service reminder.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The Add New Customer flow must include the service frequency field.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The field should have a clear label explaining its purpose.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The field should provide a quick button for 3 months.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The field should provide a quick button for 4 months.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The field should provide a quick button for 6 months.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The field should provide a quick button for 12 months.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The field should provide a Custom Duration option.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The 3-month quick button should represent a three-month interval.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The 4-month quick button should represent a four-month interval.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The 6-month quick button should represent a six-month interval.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The 12-month quick button should represent a twelve-month interval.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Custom duration should allow an appropriate duration selection.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The selected frequency should be displayed after selection.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The last service date should be used to calculate the next service date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The next service date should be calculated automatically.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- If the user changes the frequency, the next service date should be recalculated.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- When a service is completed, the next service should be calculated from the actual completed service date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The system should not repeatedly calculate future reminders from an old scheduled date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The service frequency should be editable from the customer profile.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The reminder scheduler should use the resulting next service date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 13. Add New Customer
+- Add New Customer starts from the customer list.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Customer name is required.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Customer phone number should be available as a direct entry field.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The phone field should include a Pick from Contacts action.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Contacts permission should be requested only when contact selection is initiated.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- If permission is denied, manual phone entry remains available.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Selected contact information should be copied into the customer record.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Customer address should be collected.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Product name should be collected.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Product image should be optional.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Product image should be selectable from the gallery.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The product image should be copied into app-managed storage.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- TDS value should be optional.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Product specifications should be available as a text field.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Purchased amount should support INR.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Warranty should be represented as an explicit yes/no choice.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- If warranty is enabled, duration must be collected.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Warranty duration may include 1 year.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Warranty duration may include 2 years.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Warranty duration may support custom duration.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Warranty end date should be estimated automatically.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- AMC should be represented as an explicit yes/no choice.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- If AMC is enabled, AMC plan amount must be collected.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- AMC duration should be collected.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- AMC end date should be calculated.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Voice note should be optional.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The voice note should be stored with the customer.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 14. Voice Notes
+- Customer records should support voice notes.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The voice note component should use a familiar WhatsApp-style recording interaction.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The component should provide a record control.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The component should provide recording duration feedback.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The component should provide playback controls after recording.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The component should provide delete controls.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The component should provide save controls.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Audio should be stored locally.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Audio must be included in full backups.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The voice note should remain associated with the correct customer.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Deleting a customer should delete associated voice notes after biometric confirmation.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- If recording permission is denied, the app should explain how to enable it.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The app should handle recording interruptions safely.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The app should avoid losing an already saved recording because of a later failed recording.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 15. Service Records
+- Every service record belongs to a customer.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- A service record should contain a service date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- A service record should contain nature of complaint.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- A service record should contain parts replaced when applicable.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- A service record should contain amount charged.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- A service record should contain assigned technician.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- A service record may contain service type.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- A service record may contain notes.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Service records should be shown in chronological order.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The customer service record screen should support the requested table columns.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The table columns are S.No.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The table columns are Date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The table columns are Nature of Complaint.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The table columns are Parts if Replaced.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The table columns are Amount Charged.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The table columns are Assigned Technician.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- On small screens the table should remain readable through horizontal scrolling or responsive record cards.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Service record creation should update the customer's last service date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Service completion should recalculate the next service date from the new service date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Service records must be included in backups.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 16. Technicians
+- Technicians is a primary navigation destination.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The technician list should use a visual style consistent with Customers.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The technician screen should have an Add Technician action.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Add Technician should collect technician name.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Add Technician should collect phone number.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Add Technician should support contact selection.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Contact permission should be requested contextually.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Add Technician should support profile photo.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Add Technician should support specialization.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Add Technician should support address.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Add Technician should support notes.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Technician records should have active/inactive status.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Technician profiles should show assigned services.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Technician profiles should show completed services.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Technician profiles should show pending services.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Technician analytics should include service counts.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Technician analytics should include workload.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Technician analytics should include service-type breakdown.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Technician analytics should include charts.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 17. Analytics
+- Analytics should be available for customer records.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Analytics should be available for technicians.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Analytics should be available where aggregate business data is meaningful.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Analytics should include pie charts where categorical breakdowns are useful.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Analytics should include line graphs for trends.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Analytics should include bar graphs for comparisons.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Charts must have readable labels.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Charts must have accessible textual summaries.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Analytics must be calculated from local database data.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Analytics must work offline.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Analytics should update after relevant records change.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Analytics should not require cloud processing.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Analytics should avoid exposing unrelated customer information.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 18. Reminders
+- Servizo must support local service reminders.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Reminder scheduling must work offline.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Reminders should be based on customer service frequency and next service date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The system should support upcoming reminders.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The system should support due-today reminders.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The system should support overdue reminders.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The system should support configurable reminder timing.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application should provide reminder settings.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Reminder notifications should open the relevant customer when tapped.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Reminder records should be persisted locally.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Reminder scheduling should recover after device restart where the platform permits scheduled notifications.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application should reschedule required notifications when customer service dates change.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application should avoid duplicate notifications.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 19. Settings
+- Settings should provide profile editing.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Settings should provide company name editing.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Settings should provide logo editing.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Settings should provide profile photo editing.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Settings should provide business location editing.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Settings should provide PIN change.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Settings should provide biometric enable/disable.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Settings should provide auto-lock configuration.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Settings should provide backup.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Settings should provide restore.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Settings should provide reset app.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Settings should provide permission information.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Settings should provide application version information.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Settings should provide About information.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 20. Backup and Restore
+- Backup and restore are core reliability features.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Backups must be full backups rather than partial customer exports.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The backup must include the local database.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The backup must include all customer records.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The backup must include all technician records.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The backup must include all service records.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The backup must include all reminders.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The backup must include business profile data.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The backup must include application settings required for restoration.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The backup must include customer photos.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The backup must include product photos.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The backup must include technician photos.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The backup must include company logo.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The backup must include profile photo.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The backup must include voice notes.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The backup must include saved business location.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The backup must include metadata needed to reconnect assets to database records.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The backup file should use the custom .servizo extension.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Example backup filename: Servizo_FullBackup_2026-10-02.servizo.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The backup must be encrypted.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The encryption key should be derived securely from the user's PIN or protected through a secure key-management design.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The raw PIN must not be stored inside the backup.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The backup should include a format version.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The backup should include a schema version.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The backup should include integrity information.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Restore must validate file format.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Restore must validate encryption.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Restore must validate integrity.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Restore must validate that required records and relationships are coherent.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Restore must reject corrupted backups without replacing current data.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The user should be warned before restore.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application should offer a current-data backup before destructive restore operations.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Restore should preserve all relationships between customers, products, services, technicians, reminders, and assets.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 21. Delete and Reset Security
+- Customer deletion is a destructive operation.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Customer deletion must require biometric authentication where biometric authentication is enabled.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- PIN fallback should be available where appropriate.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The deletion confirmation must identify the data that will be deleted.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Customer deletion must remove related records according to the configured data relationship policy.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Customer deletion must remove related local assets.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Customer deletion must not accidentally delete unrelated customer assets.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- App reset is more destructive than customer deletion.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- App reset must require explicit confirmation.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- App reset must require strong authentication.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The reset warning must explain that local application data will be removed.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The reset action should be difficult to trigger accidentally.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 22. Permissions
+- Permissions should be requested only when needed.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Contacts permission is needed for contact selection.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Location permission is needed for business location selection.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Camera permission may be needed for photos.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Gallery/media permission may be needed depending on platform behavior.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Microphone permission is needed for voice notes.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Notification permission may be needed for local notifications on supported platforms.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Biometric permission is required to use biometric authentication where the platform exposes such a permission or capability.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Every denied permission must have a graceful fallback.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application should provide a settings route for previously denied permissions where platform policy permits.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The app should never repeatedly prompt for a denied permission without user action.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 23. Privacy and Data Handling
+- Customer information is business data and must be treated as sensitive operational information.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application should minimize unnecessary data collection.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Only information needed for the business workflow should be stored.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Contact selection should copy only the information needed for the customer record.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The app should not continuously monitor contacts.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The app should not continuously track location.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The app should not record audio without an explicit recording action.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The app should not send customer information automatically to third-party services.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- WhatsApp sharing must be initiated by the user.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Phone calling must be initiated by the user.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Backups should remain under the user's control.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 24. UI and Visual Design
+- The visual identity should use the Servizo logo.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The interface should use a modern service-business aesthetic.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Cards should use consistent corner radii.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Cards should use consistent spacing.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Primary actions should be visually distinct.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Destructive actions should be visually separated.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Typography should prioritize readability.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application should use a consistent icon set.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Interactive elements should provide pressed states.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Interactive elements should provide disabled states.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Loading states should be animated but not distracting.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Transitions should be smooth.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Animations should not prevent accessibility or rapid navigation.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The UI should support small and large device sizes.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The UI should respect safe areas and system navigation.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 25. Error Handling
+- All data operations should handle failure gracefully.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Database write failures should not report success.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Image import failures should be explained.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Audio recording failures should be explained.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Permission failures should be explained.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Backup failures should be explained.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Restore failures should preserve the current dataset.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Notification scheduling failures should be logged locally for troubleshooting where appropriate.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- WhatsApp launch failures should provide a fallback.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Phone action failures should provide a fallback.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Corrupt local records should not crash the entire application.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application should avoid data loss during interrupted writes.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 26. Accessibility
+- Buttons should have accessible labels.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Icons should not be the only way to understand an action.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Text contrast should be sufficient.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Important status information should not rely solely on color.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Charts should have textual summaries.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Touch targets should be sufficiently large.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The app should support system font scaling where practical.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Form errors should be associated with their relevant fields.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The keypad should expose appropriate accessibility descriptions.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 27. Data Model
+- The local data model should separate customers from technicians.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The local data model should separate customer profiles from service records.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Products should have a stable identifier.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Customers should have a stable identifier.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Technicians should have a stable identifier.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Service records should have a stable identifier.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Reminders should have a stable identifier.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Voice notes should have a stable identifier.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Asset records should have stable identifiers.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Relationships should use stable IDs rather than display names.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Customer name changes must not break service history.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Technician name changes must not break service history.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Asset filenames should not be the only identity mechanism.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 28. Customer Fields
+- Customer ID.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Customer name.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Phone number.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Optional secondary phone number if required by the final implementation.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Address.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Created date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Updated date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Product ID.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Product name.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Product image reference.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- TDS value.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Product specifications.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Purchased amount.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Warranty enabled flag.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Warranty duration.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Warranty start date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Warranty end date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- AMC enabled flag.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- AMC plan.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- AMC amount.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- AMC start date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- AMC end date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- General service frequency.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Last service date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Next service date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Notes.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 29. Technician Fields
+- Technician ID.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Technician name.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Phone number.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Address.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Profile image reference.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Specialization.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Notes.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Active status.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Created date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Updated date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 30. Service Record Fields
+- Service record ID.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Customer ID.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Product ID where applicable.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Service date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Service type.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Nature of complaint.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Parts replaced.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Amount charged.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Assigned technician ID.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Notes.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Created timestamp.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Updated timestamp.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 31. Reminder Fields
+- Reminder ID.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Customer ID.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Service record reference when applicable.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Reminder date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Reminder type.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Reminder status.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Notification schedule identifier.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Created timestamp.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Updated timestamp.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 32. Asset Management
+- Assets include company logo.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Assets include profile photo.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Assets include product photos.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Assets include technician photos.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Assets include customer voice notes.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Assets must have stable local references.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Assets should be stored in an app-managed directory.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Asset metadata should record MIME type.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Asset metadata should record size where useful.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Asset metadata should record creation date where useful.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Backup should package assets with relationship metadata.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Restore should recreate asset relationships.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 33. Security Model
+- The app must be protected by a four-digit PIN.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The PIN must be entered using the custom keypad.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Biometric authentication can provide a faster unlock path.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Sensitive destructive operations should request re-authentication.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Auto-lock should protect the app after inactivity.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application should clear or obscure sensitive content when appropriate on backgrounding.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application should not expose sensitive customer data in debug logs.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The application should not expose PIN material in logs.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Backup encryption must use modern authenticated encryption.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Encryption keys must be handled using platform secure storage where possible.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Failed authentication attempts should be handled according to platform security best practices.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 34. Navigation Behavior
+- Dashboard tab opens dashboard.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Customers tab opens customer list.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Technicians tab opens technician list.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Settings tab opens settings.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Customer cards should navigate to customer details.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Service reminder cards should navigate to the relevant customer.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Service record actions should navigate to service records.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Back navigation should preserve scroll position where practical.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Forms should warn before discarding unsaved changes when necessary.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 35. Customer Workflow
+- User opens Customers.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- User taps Add New Customer.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- User enters customer name.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- User enters or selects phone number.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- User enters address.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- User enters product information.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- User optionally adds product image.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- User optionally adds TDS value.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- User enters product specifications.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- User configures warranty.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- User configures AMC.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- User selects service frequency.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- User optionally records a voice note.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- User reviews the entered information.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- User saves the customer.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The customer is stored locally.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The customer appears in the customer list.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The customer can appear in dashboard reminders when a next service date exists.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 36. Service Completion Workflow
+- User opens a customer.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- User opens service records.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- User creates a service record.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- User selects service date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- User enters complaint.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- User enters parts replaced.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- User enters amount charged.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- User assigns technician.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- User enters optional notes.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- User saves the service record.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The service record is stored locally.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The customer last service date is updated.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The next service date is recalculated using the customer's service frequency.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Old pending reminder scheduling should be replaced or updated.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The new reminder should be scheduled locally.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 37. Dashboard Reminder Logic
+- Dashboard should calculate the upcoming service set from local records.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Upcoming reminders should be sorted by date.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Overdue reminders should be identifiable.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Due-today reminders should be identifiable.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Future reminders should be identifiable.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The dashboard should avoid showing deleted customers.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The dashboard should avoid showing disabled or invalid reminders.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Tapping a reminder should open the associated customer.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The dashboard should update after a service record is created.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The dashboard should update after a customer is edited.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 38. Backup UX
+- Settings should expose Backup & Restore.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Backup screen should show last backup date when available.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Backup screen should show backup status.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Create Backup should explain that it creates a full backup.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The app should request a destination through the platform file picker where appropriate.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The backup should use the .servizo extension.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The app should show progress during large backups.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The app should confirm successful backup creation.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- The app should show a useful error when backup creation fails.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Restore should allow selecting a .servizo file.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Restore should request authentication.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Restore should validate the backup.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Restore should show what will happen before proceeding.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Restore should show progress.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Restore should confirm successful restoration.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 39. App Reset UX
+- Reset App belongs in a clearly marked danger zone.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Reset App should explain the consequences.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Reset App should require authentication.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Reset App should require final confirmation.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Reset should remove local database records.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Reset should remove app-managed assets.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Reset should remove reminder schedules.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Reset should return the app to the first-launch state.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Reset should not affect unrelated device data.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 40. Footer and Versioning
+- Settings footer should show Servizo.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Settings footer should show the tagline.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Settings footer should show the application version.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Settings footer can show build information in development builds.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Settings footer can provide About Servizo.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Version numbers should follow a consistent versioning strategy.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+- Backup schema versions must be independent from the visible app version.
+- The implementation must preserve the meaning of this requirement across all supported screens.
+- The requirement must remain functional when the device is offline.
+- The state represented by this requirement must be persisted locally when it changes.
+- The UI should provide immediate feedback when the user completes the related action.
+- Failures related to this requirement must not silently discard unrelated saved data.
+- The feature should use stable identifiers when it references another business record.
+- Any optional value related to this requirement must have an explicit empty state.
+- Any destructive consequence related to this requirement must be clearly communicated before execution.
+- Where platform permissions are involved, the app must handle denied and revoked permissions.
+- Where an asset is involved, the asset must be represented in the full backup.
+- Where a date is involved, date calculations must use the device/business local calendar rules consistently.
+- Where a notification is involved, notification state must remain synchronized with the local record.
+- Where an external app is opened, the action must remain user initiated.
+- Where a chart is used, the same underlying local data must remain available as a textual summary.
+- QA should verify this requirement after app restart.
+# 41. Launch and Animation Acceptance
+- Launch animation renders without blocking the first interactive setup action.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Animation remains smooth on lower-end supported devices.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Animation has an accessible reduced-motion behavior where platform support is available.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Animation can be interrupted or skipped if the final UX requires rapid entry.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Logo assets are loaded from local resources after initial installation.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- No network request is required for the welcome animation.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Setup transition does not duplicate setup records.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Returning to the app during setup restores the correct setup step.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+# 42. Form Validation Acceptance
+- Required fields cannot be saved empty.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Phone number validation accepts the supported local phone format.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Phone number normalization is consistent.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- INR amount fields reject invalid characters.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Duration controls cannot create negative intervals.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Warranty end date cannot precede warranty start date.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- AMC end date cannot precede AMC start date.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Service frequency must be valid before a next service date is generated.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Custom duration must have a valid unit and value.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Unsaved form changes are not silently discarded.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+# 43. Contact Picker Acceptance
+- Contact picker is reachable from customer phone entry.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Contact picker is reachable from technician phone entry.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Contacts permission is requested only when the picker is used.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Denied contacts permission does not block manual entry.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- A selected contact populates the relevant phone field.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- The user can edit a phone number after importing it.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- The app does not continuously synchronize the entire address book.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Contact-derived information is included only in the resulting business record.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+# 44. Location Acceptance
+- Location permission request explains its purpose.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- The map displays the obtained business position.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- The user can confirm the location.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- The stored location is a business location, not a tracking history.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Location remains available after app restart.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Editing the business location replaces the intended saved point.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Location denial does not crash setup.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+# 45. Notification Acceptance
+- A service reminder can be scheduled locally.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- A reminder can be cancelled when the service is completed.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- A reminder can be rescheduled when the next service date changes.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Duplicate reminder schedules are prevented.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Notification tap opens the relevant customer.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Notification text identifies the relevant customer and service context.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- The app handles notification permission denial.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Reminder calculations remain correct after device restart where supported.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+# 46. Analytics Acceptance
+- Analytics are computed from local records.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Charts update after service records change.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Charts do not include deleted records.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Charts display empty states when insufficient data exists.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Pie charts include readable category labels.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Trend charts use consistent date ranges.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Analytics remain available offline.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Analytics do not require a cloud account.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+# 47. Backup Acceptance
+- A full backup includes the local database.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- A full backup includes every app-managed image.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- A full backup includes every app-managed audio recording.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- A full backup includes company branding assets.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- A full backup includes technician assets.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- A full backup includes customer assets.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- A full backup includes service records.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- A full backup includes reminder configuration.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- A full backup includes schema metadata.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- A backup can be recognized by the .servizo extension.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- A backup cannot be restored without passing integrity validation.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- A failed restore leaves the current dataset unchanged.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- A successful restore reconnects asset references.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- A restored dataset opens correctly after app restart.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+# 48. Security Acceptance
+- PIN entry uses the custom on-screen keypad.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- PIN confirmation is required during setup.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- PIN material is not displayed in plaintext outside the intended entry state.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Biometric unlock works when the device supports it.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- PIN fallback works when biometric unlock is unavailable.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Auto-lock protects the app after the configured period.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Delete customer requires the configured authentication method.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Reset app requires strong confirmation.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Backup encryption prevents direct plaintext inspection of customer data.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Sensitive data is excluded from ordinary debug logging.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+# 49. WhatsApp Acceptance
+- The Send to Technician action constructs the requested customer information.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- The message includes customer name.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- The message includes customer phone.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- The message includes product name.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- The message includes service type.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- The message includes customer address.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- The user can review the message in WhatsApp before sending.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- The app handles the absence of WhatsApp.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- No automatic message is sent without user action.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+# 50. Final Product Acceptance
+- The app can be used without an internet connection for core operations.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Customers can be created and edited locally.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Technicians can be created and edited locally.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Service records can be created and viewed locally.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- General service frequency drives next service date calculation.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Three-month service frequency is available as a quick option.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Four-month service frequency is available as a quick option.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Six-month service frequency is available as a quick option.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Twelve-month service frequency is available as a quick option.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Custom service frequency is available.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Local notifications can remind the user about services.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Customer service reminders navigate directly to customer details.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Customer calling opens the phone action.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Technician sharing opens WhatsApp with the prepared message.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Customer deletion is protected.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Full backup includes data and assets.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Backup uses the custom .servizo extension.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Backup is encrypted.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Restore is validated before replacing data.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- Settings exposes security and backup controls.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+- The footer shows version information.
+- Verify the behavior on a fresh installation.
+- Verify the behavior after restarting the application.
+- Verify that unrelated records remain unchanged.
+- Verify the behavior when the device is offline.
+# 51. Delivery Definition
+- Servizo is considered functionally complete when the first-launch setup, dashboard, customers, technicians, settings, local reminders, service records, authentication, backup, restore, and destructive-action protections are implemented.
+- The final implementation should preserve the product identity and tagline.
+- The final implementation should preserve local-first operation.
+- The final implementation should preserve the custom .servizo backup format.
+- The final implementation should preserve encrypted full backup and restore.
+- The final implementation should preserve the three-month and four-month service-frequency quick buttons.
+- The final implementation should preserve automatic next-service calculation.
+- The final implementation should preserve direct customer navigation from reminder cards.
+- The final implementation should preserve phone and WhatsApp handoff actions.
+- The final implementation should preserve customer analytics and service-record tables.
+- The final implementation should preserve technician management and analytics.
+- The final implementation should preserve biometric protection for destructive operations.
+- The final implementation should preserve the iOS-style bottom navigation.
+- The final implementation should preserve the animated welcome experience.
+- The final implementation should preserve full asset backup coverage.
